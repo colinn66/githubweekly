@@ -3,7 +3,6 @@
     <img src="asset/it-coffee-circle.png" alt="LangExtract Logo" width="128" />
   </a>
 </p>
---- 
 
 ## githubweekly
 
