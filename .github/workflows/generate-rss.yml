@@ -1,0 +1,85 @@
+name: Generate RSS Feed
+on:
+  # 触发条件：posts目录下文件变更、push到main分支、手动触发
+  push:
+    branches: [main]
+    paths: ["posts/**/*.md"]
+  workflow_dispatch: # 手动触发
+
+jobs:
+  build-rss:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 仓库代码
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 拉取所有历史提交，方便获取文件修改时间
+
+      - name: 设置 Node.js 环境
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # 使用稳定版 Node.js
+
+      - name: 安装 RSS 生成依赖
+        run: |
+          npm init -y
+          npm install rss fs-extra glob gray-matter --save-dev
+
+      - name: 编写并执行 RSS 生成脚本
+        run: |
+          cat > generate-rss.js << 'EOF'
+          const fs = require('fs-extra');
+          const glob = require('glob');
+          const matter = require('gray-matter');
+          const RSS = require('rss');
+
+          // RSS 基础配置（根据你的仓库修改）
+          const feed = new RSS({
+            title: '我的文章更新 RSS 订阅', // 订阅标题
+            description: '实时获取我的最新文章更新', // 订阅描述
+            feed_url: 'https://github.com/${{ github.repository }}/raw/main/rss.xml', // RSS 文件地址
+            site_url: 'https://github.com/${{ github.repository }}', // 仓库地址
+            language: 'zh-CN', // 语言
+            copyright: `© ${new Date().getFullYear()} ${{ github.actor }}`, // 版权信息
+            pubDate: new Date().toISOString() // 发布时间
+          });
+
+          // 读取 posts 目录下的所有 Markdown 文件
+          const files = glob.sync('posts/**/*.md');
+
+          // 解析每个文件的元信息并添加到 RSS
+          files.forEach(file => {
+            const content = fs.readFileSync(file, 'utf8');
+            const frontmatter = matter(content).data; // 读取 Markdown 前置元信息（如 title/date/description）
+            
+            // 跳过无标题的文件
+            if (!frontmatter.title) return;
+            
+            // 构造文章链接（仓库 raw 地址）
+            const postUrl = `https://github.com/${{ github.repository }}/raw/main/${file}`;
+            
+            // 添加文章到 RSS
+            feed.item({
+              title: frontmatter.title,
+              description: frontmatter.description || '无摘要',
+              url: postUrl,
+              guid: postUrl, // 唯一标识
+              date: frontmatter.date || new Date().toISOString() // 文章发布时间
+            });
+          });
+
+          // 生成 RSS XML 文件并写入仓库根目录
+          const rssXml = feed.xml({ indent: true });
+          fs.writeFileSync('rss.xml', rssXml, 'utf8');
+          console.log('RSS 文件生成成功：rss.xml');
+          EOF
+
+          # 执行生成脚本
+          node generate-rss.js
+
+      - name: 提交并推送 RSS 文件
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: 自动更新 RSS 订阅文件"
+          file_pattern: "rss.xml" # 仅提交 rss.xml
+          branch: main
