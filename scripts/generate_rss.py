@@ -111,7 +111,7 @@ def replace_md_image_paths(md_content, md_file_path):
 
     def _replace_image_match(match):
         """Inner function to process each regex match (private by Google style)."""
-        alt_text = match.group(1)
+        alt_text = match.g".")
         img_path = match.group(2).strip()
 
         # Skip already absolute URLs
@@ -120,7 +120,7 @@ def replace_md_image_paths(md_content, md_file_path):
 
         # Calculate absolute path of the image
         md_dir = os.path.dirname(md_file_path)
-        abs_img_path = os.path.abspath(os.path.join(md_dir, img_path))
+        abs_img_path = os.path.abspath(os.path.join("./", img_path))
         repo_root = os.path.abspath("./")
         rel_img_path = os.path.relpath(abs_img_path, repo_root)
 
