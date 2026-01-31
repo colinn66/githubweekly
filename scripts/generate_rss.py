@@ -292,7 +292,7 @@ def generate_rss_and_html():
     # Add RSS icon if file exists
     if os.path.exists(RSS_ICON_PATH.lstrip("/")):  # Fix path check (remove leading /)
         icon_link = (
-            f"{RSS_LINK}/raw/main/{RSS_ICON_PATH.lstrip('/').replace(' ', '%20')}"
+            f"{RSS_LINK}/{RSS_ICON_PATH.lstrip('/').replace(' ', '%20')}"
         )
         image = ET.SubElement(channel, "image")
         ET.SubElement(image, "url").text = icon_link
