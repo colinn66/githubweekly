@@ -31,7 +31,7 @@ except ImportError:
 # -----------------------------------------------------------------------------
 # RSS Feed Core Configuration
 RSS_TITLE = "IT咖啡馆的github每周热点项目"
-RSS_LINK = "https://github.com/itcoffee66/githubweekly"  # Replace with your repo URL
+RSS_LINK = "https://github.com/qjm100/githubweekly"  # Replace with your repo URL
 RSS_DESCRIPTION = "github 每周热点项目"
 RSS_LANGUAGE = "zh-CN"
 
@@ -120,12 +120,12 @@ def replace_md_image_paths(md_content, md_file_path):
 
         # Calculate absolute path of the image
         md_dir = os.path.dirname(md_file_path)
-        abs_img_path = os.path.abspath(os.path.join("./", img_path))
+        abs_img_path = os.path.abspath(os.path.join(md_dir, img_path))
         repo_root = os.path.abspath("./")
         rel_img_path = os.path.relpath(abs_img_path, repo_root)
 
         # Build GitHub RAW URL (encode spaces)
-        img_raw_link = f"{RSS_LINK}/raw/main/{rel_img_path.replace(' ', '%20')}"
+        img_raw_link = f"{RSS_LINK}/raw/main/{img_path}"
         return f"![{alt_text}]({img_raw_link})"
 
     return image_pattern.sub(_replace_image_match, md_content)
