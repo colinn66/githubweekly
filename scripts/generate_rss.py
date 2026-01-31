@@ -197,8 +197,9 @@ def md_to_html(file_path):
 
     # Wrap with container and styles for better rendering
     full_html = f"<div style='max-width: 800px; margin: 0 auto;'>{HTML_STYLE}{html_content}</div>"
-
-    return full_html, metadata
+    file_name = os.path.basename(file_path)
+    html_file_name = os.path.splitext(file_name)[0]
+    return full_html, metadata, html_file_name
 
 
 def _prettify_xml(element):
@@ -261,9 +262,8 @@ def generate_rss():
         for file_name in files:
             if file_name.endswith(".md") and not file_name.startswith("."):
                 file_path = os.path.join(root_dir, file_name)
-
                 # 转换markdown到HTML并获取元数据
-                html_content, metadata = md_to_html(file_path)
+                html_content, metadata, html_file_name = md_to_html(file_path)
 
                 # 使用元数据中的日期（转换为RFC 822格式）
                 pub_date = convert_date_to_rfc822(metadata["date"])
@@ -272,7 +272,7 @@ def generate_rss():
                 item_title = metadata["title"]
 
                 # 文章链接（保持不变）
-                item_link = f"{RSS_LINK}/post/{file_path.replace(' ', '%20')}"
+                item_link = f"{RSS_LINK}/post/{html_file_name.replace(' ', '%20')}"
                 # Create RSS item
                 item = ET.SubElement(channel, "item")
                 ET.SubElement(item, "title").text = item_title
