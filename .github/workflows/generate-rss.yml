@@ -4,11 +4,6 @@ name: Generate HTML & RSS from MD Files
 on:
   push:
     branches: [main]
-    paths:
-      - "post/**/*.md" # 仅监听post目录下的md文件变更
-      - "scripts/generate_rss.py"
-      - ".github/workflows/generate_rss.yml"
-
 jobs:
   build:
     runs-on: ubuntu-latest
