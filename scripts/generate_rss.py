@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""Generate RSS feed and HTML files from markdown files in a GitHub repository.
+"""Generate RSS feed from markdown files in a GitHub repository.
 
-This script converts markdown files to HTML (saved to asset/html),
-replaces relative image paths with absolute GitHub RAW URLs,
-and generates a well-formatted RSS 2.0 XML file with links to HTML files.
+This script converts markdown files in a specified directory to HTML,
+replaces relative image paths with absolute GitHub RAW URLs, and generates
+a well-formatted RSS 2.0 XML file. It follows Google Python Style Guide.
 """
 
 import os
@@ -31,13 +31,12 @@ except ImportError:
 # -----------------------------------------------------------------------------
 # RSS Feed Core Configuration
 RSS_TITLE = "IT咖啡馆的github每周热点项目"
-RSS_LINK = "https://github.com/qjm100/githubweekly"  # Replace with your repo URL
+RSS_LINK = "https://qjm100.github.io/githubweekly"  # Replace with your repo URL
 RSS_DESCRIPTION = "github 每周热点项目"
 RSS_LANGUAGE = "zh-CN"
 
 # File Path Configuration
 MD_DIR = "post/"  # Directory containing markdown files
-HTML_OUTPUT_DIR = "asset/html"  # 新增：HTML输出目录
 RSS_OUTPUT_FILE = "rss.xml"  # Output RSS file name
 RSS_ICON_PATH = "/asset/it-coffee-circle.png"  # Icon path within repo
 
@@ -50,19 +49,17 @@ MD_EXTENSIONS = [
 ]
 MD_EXTENSION_CONFIGS = {"codehilite": {"linenums": False, "css_class": "code-block"}}
 
-# HTML Styling (for better RSS reader rendering and standalone HTML files)
+# HTML Styling (for better RSS reader rendering)
 HTML_STYLE = """
     <style>
-        body { max-width: 800px; margin: 20px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; overflow-x: auto; }
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
         table { border-collapse: collapse; margin: 10px 0; }
         th, td { border: 1px solid #ddd; padding: 6px 12px; }
         th { background: #f0f0f0; }
-        h1, h2, h3 { margin: 15px 0 5px; color: #2c3e50; }
-        p { line-height: 1.6; margin: 8px 0; color: #34495e; }
-        ul, ol { margin: 8px 0 8px 20px; color: #34495e; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
         img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
-        .post-meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
     </style>
 """
 
@@ -165,7 +162,7 @@ def replace_md_image_paths(md_content, md_file_path):
         rel_img_path = os.path.relpath(abs_img_path, repo_root)
 
         # Build GitHub RAW URL (encode spaces)
-        img_raw_link = f"{RSS_LINK}/raw/main/{rel_img_path.replace(' ', '%20')}"  # 修复：使用相对仓库根目录的路径
+        img_raw_link = f"{RSS_LINK}/raw/main/{img_path}"
         return f"![{alt_text}]({img_raw_link})"
 
     return image_pattern.sub(_replace_image_match, md_content)
@@ -178,11 +175,9 @@ def md_to_html(file_path):
         file_path: Path to the markdown file (str).
 
     Returns:
-        tuple: (full_html, standalone_html, metadata, html_file_name)
-            - full_html: 仅正文的HTML内容（用于RSS）
-            - standalone_html: 完整的独立HTML文件内容（带head/body）
+        tuple: (html_content, metadata)
+            - html_content: 仅正文的HTML内容
             - metadata: 解析出的元数据字典
-            - html_file_name: 生成的HTML文件名
     """
     with open(file_path, "r", encoding="utf-8") as file_handle:
         md_content = file_handle.read().strip()
@@ -200,50 +195,10 @@ def md_to_html(file_path):
         extension_configs=MD_EXTENSION_CONFIGS,
     )
 
-    # 用于RSS的HTML（仅正文+样式）
-    rss_html = f"<div style='max-width: 800px; margin: 0 auto;'>{HTML_STYLE}{html_content}</div>"
+    # Wrap with container and styles for better rendering
+    full_html = f"<div style='max-width: 800px; margin: 0 auto;'>{HTML_STYLE}{html_content}</div>"
 
-    # 生成独立的完整HTML文件内容（带head/body）
-    standalone_html = f"""<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-    <meta charset="UTF-8">
-    <title>{metadata["title"]}</title>
-    <meta name="description" content="{metadata["description"] or metadata["title"]}">
-    {HTML_STYLE}
-</head>
-<body>
-    <h1>{metadata["title"]}</h1>
-    <div class="post-meta">发布时间：{metadata["date"]}</div>
-    {html_content}
-</body>
-</html>"""
-
-    # 生成HTML文件名（替换md后缀为html，保留原文件名）
-    file_name = os.path.basename(file_path)
-    html_file_name = os.path.splitext(file_name)[0] + ".html"
-
-    return rss_html, standalone_html, metadata, html_file_name
-
-
-def save_html_file(standalone_html, html_file_name):
-    """保存生成的HTML文件到指定目录
-
-    Args:
-        standalone_html: 完整的HTML内容
-        html_file_name: 要保存的HTML文件名
-    """
-    # 确保输出目录存在
-    os.makedirs(HTML_OUTPUT_DIR, exist_ok=True)
-
-    # 拼接完整的HTML文件路径
-    html_file_path = os.path.join(HTML_OUTPUT_DIR, html_file_name)
-
-    # 写入HTML文件
-    with open(html_file_path, "w", encoding="utf-8") as f:
-        f.write(standalone_html)
-
-    print(f"✅ 已生成HTML文件: {html_file_path}")
+    return full_html, metadata
 
 
 def _prettify_xml(element):
@@ -270,11 +225,11 @@ def _prettify_xml(element):
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + "\n".join(clean_lines)
 
 
-def generate_rss_and_html():
-    """Main function to generate HTML files and RSS feed XML file.
+def generate_rss():
+    """Main function to generate the RSS feed XML file.
 
     Creates RSS 2.0 structure, populates with markdown content,
-    generates HTML files, and writes the final files to disk.
+    and writes the final XML to disk.
     """
     # Create RSS root and channel elements
     rss_root = ET.Element("rss", version="2.0")
@@ -308,22 +263,16 @@ def generate_rss_and_html():
                 file_path = os.path.join(root_dir, file_name)
 
                 # 转换markdown到HTML并获取元数据
-                rss_html_content, standalone_html, metadata, html_file_name = (
-                    md_to_html(file_path)
-                )
-
-                # 保存HTML文件到asset/html目录
-                save_html_file(standalone_html, html_file_name)
+                html_content, metadata = md_to_html(file_path)
 
                 # 使用元数据中的日期（转换为RFC 822格式）
                 pub_date = convert_date_to_rfc822(metadata["date"])
 
-                # 使用元数据中的标题
+                # 使用元数据中的标题（替代原文件名）
                 item_title = metadata["title"]
 
-                # 🔥 关键修改：RSS链接指向生成的HTML文件（GitHub Raw地址）
-                item_link = f"{RSS_LINK}/raw/main/{HTML_OUTPUT_DIR}/{html_file_name.replace(' ', '%20')}"
-
+                # 文章链接（保持不变）
+                item_link = f"{RSS_LINK}/post/{file_path.replace(' ', '%20')}"
                 # Create RSS item
                 item = ET.SubElement(channel, "item")
                 ET.SubElement(item, "title").text = item_title
@@ -333,27 +282,23 @@ def generate_rss_and_html():
                 item_description = (
                     metadata["description"]
                     if metadata["description"]
-                    else rss_html_content[:200] + "..."
+                    else html_content[:200] + "..."
                 )
                 desc_elem = ET.SubElement(item, "description")
                 desc_elem.text = (
-                    item_description if metadata["description"] else rss_html_content
+                    item_description if metadata["description"] else html_content
                 )
                 ET.SubElement(item, "pubDate").text = pub_date
-                ET.SubElement(
-                    item, "guid"
-                ).text = item_link  # Unique identifier (使用HTML链接)
+                ET.SubElement(item, "guid").text = item_link  # Unique identifier
 
     # Generate and write prettified XML
     final_xml = _prettify_xml(rss_root)
     with open(RSS_OUTPUT_FILE, "w", encoding="utf-8") as file_handle:
         file_handle.write(final_xml)
 
-    print(f"✅ 已生成RSS文件: {RSS_OUTPUT_FILE}")
-
 
 # -----------------------------------------------------------------------------
 # Main Execution
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    generate_rss_and_html()
+    generate_rss()
