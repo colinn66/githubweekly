@@ -1,13 +1,99 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title><![CDATA[IT咖啡馆的github每日周报]]></title>
-        <description><![CDATA[订阅]]></description>
-        <link>https://github.com/qjm100/githubweekly</link>
-        <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 31 Jan 2026 08:14:46 GMT</lastBuildDate>
-        <atom:link href="https://github.com/qjm100/githubweekly/raw/main/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Sat, 31 Jan 2026 08:14:46 GMT</pubDate>
-        <copyright><![CDATA[© 2026 qjm100]]></copyright>
-        <language><![CDATA[zh-CN]]></language>
-    </channel>
+<?xml version="1.0" ?>
+<rss version="2.0">
+  <channel>
+    <title>rss 订阅</title>
+    <link>https://github.com/qjm100/githubweekly</link>
+    <description>自动生成的 MD 文件 RSS 订阅</description>
+    <language>zh-CN</language>
+    <pubDate>Sat, 31 Jan 2026 08:31:16 GMT</pubDate>
+    <item>
+      <title>README</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./README.md</link>
+      <description>&lt;p align=&quot;center&quot;&gt;
+  &lt;a href=&quot;https://github.com/itcoffee66/githubweekly&quot;&gt;
+    &lt;img src=&quot;asset/it-coffee-circle.png&quot; alt=&quot;LangExtract Logo&quot; width=&quot;128&quot; /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+
+## githubweekly
+
+GitHub一周热点汇总，每周</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./README.md</guid>
+    </item>
+    <item>
+      <title>101</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/101.md</link>
+      <description>## 视频
+[本期视频链接](https://www.bilibili.com/video/BV1fqzrB1Enm/)
+
+GitHub 一周热点第101期(2025/1/18 - 2026/1/24），本期内容包括Github一周热点的开源仓库，开源版cowork，数据工程实战课程，浏览器MCP，专业设计的agent skill和无代码galgame引擎。
+最后还有 2 份资料分享。
+如果觉得内</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/101.md</guid>
+    </item>
+    <item>
+      <title>96</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/96.md</link>
+      <description>## 视频
+[本期视频链接](https://www.bilibili.com/video/BV17K2sBEEUR/)
+
+GitHub 一周热点第96期(2025/11/30 - 12/6），本期内容包括最新AI绘图模型、腾讯的视频生成模型、AI的个性化动态记忆、开源版的MAC Launchpad、笔记和知识库系统，还有Nginx可视化管理工具。
+最后还有 2 份资料分享。
+如果觉得内容不错，别</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/96.md</guid>
+    </item>
+    <item>
+      <title>100</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/100.md</link>
+      <description>[本期视频链接](https://www.bilibili.com/video/BV1TDrSBoESB/)
+
+GitHub 一周热点第100期(2025/12/29 - 2026/1/3），本期内容包括开源的 AI 编程代理、AI 开发技能框架、自动操作电脑agent、深度研究agent、icloud下载工具和微信公众号文章导出工具。
+最后还有 2 份资料分享。
+不知不觉我的栏目已经做到了100</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/100.md</guid>
+    </item>
+    <item>
+      <title>99</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/99.md</link>
+      <description>[本期视频链接](https://www.bilibili.com/video/BV1mJiFBKE48/)
+
+
+GitHub 一周热点第99期(2025/12/29 - 2026/1/3），本期内容包括AI 编码代理的编排平台、Claude skill、agent生成UI、macOS 系统清理工具、终端文本编辑器和简历生成器。
+最后还有 2 份资料分享。
+朋友一转眼好久不见，上次更新视频还是去年</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/99.md</guid>
+    </item>
+    <item>
+      <title>97</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/97.md</link>
+      <description>## 视频
+[本期视频链接](https://www.bilibili.com/video/BV12jmeBxEw3/)
+
+GitHub 一周热点第97期(2025/12/7 - 12/13），本期内容包括自动操作手机的Agent、AI画架构图、AI编程的指导、看板工具、GO语言的游戏引擎和具身智能资料库。
+最后还有 2 份资料分享。
+如果觉得内容不错，别忘了点赞关注支持一下。
+
+## 1 Ope</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/97.md</guid>
+    </item>
+    <item>
+      <title>98</title>
+      <link>https://github.com/qjm100/githubweekly/blob/main/./post/98.md</link>
+      <description>## 视频
+[本期视频链接](https://www.bilibili.com/video/BV1Rjq2BmEpc/)
+
+GitHub 一周热点第98期(2025/12/14 - 12/20），本期内容包括AI文档理解检索框架、微软最新的TTS框架、Claude Code 记忆插件、自动化备份工具、 jellyfin的桌面端和linux桌面环境。
+最后还有 2 份资料分享。
+
+## 1 WeKn</description>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/./post/98.md</guid>
+    </item>
+  </channel>
 </rss>
