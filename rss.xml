@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>我的 MD 文件 RSS 订阅</title>
-    <link>https://github.com/你的用户名/你的仓库名</link>
-    <description>基于 Commit 时间自动生成的 MD 文件 RSS 订阅（完整 HTML 内容）</description>
+    <title>IT咖啡馆的github每周热点项目</title>
+    <link>https://github.com/qjm100/githubweekly</link>
+    <description>github 每周热点项目</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 31 Jan 2026 08:55:38 GMT</pubDate>
+    <pubDate>Sat, 31 Jan 2026 09:06:43 GMT</pubDate>
+    <image>
+      <url>https://github.com/qjm100/githubweekly/raw/main/asset/it-coffee-circle.png</url>
+      <title>IT咖啡馆的github每周热点项目</title>
+      <link>https://github.com/qjm100/githubweekly</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
     <item>
       <title>101</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/101.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/101.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -18,9 +25,9 @@
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;h2&gt;视频&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1fqzrB1Enm/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第101期(2025/1/18 - 2026/1/24），本期内容包括Github一周热点的开源仓库，开源版cowork，数据工程实战课程，浏览器MCP，专业设计的agent skill和无代码galgame引擎。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;br /&gt;
@@ -110,11 +117,11 @@ UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设�
 &lt;p&gt;101期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点101期」，链接：https://pan.quark.cn/s/015fd96302ba&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/101.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/101.md</guid>
     </item>
     <item>
       <title>96</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/96.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/96.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -124,9 +131,9 @@ UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设�
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;h2&gt;视频&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV17K2sBEEUR/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第96期(2025/11/30 - 12/6），本期内容包括最新AI绘图模型、腾讯的视频生成模型、AI的个性化动态记忆、开源版的MAC Launchpad、笔记和知识库系统，还有Nginx可视化管理工具。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;br /&gt;
@@ -199,11 +206,11 @@ Nginx Proxy Manager是一个开源Nginx管理工具 — 基于 Nginx + Docker �
 &lt;p&gt;96期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点96期」，链接：https://pan.quark.cn/s/ad818fc0f6e5&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/96.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/96.md</guid>
     </item>
     <item>
       <title>100</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/100.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/100.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -213,9 +220,9 @@ Nginx Proxy Manager是一个开源Nginx管理工具 — 基于 Nginx + Docker �
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1TDrSBoESB/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1TDrSBoESB/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第100期(2025/12/29 - 2026/1/3），本期内容包括开源的 AI 编程代理、AI 开发技能框架、自动操作电脑agent、深度研究agent、icloud下载工具和微信公众号文章导出工具。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;br /&gt;
 不知不觉我的栏目已经做到了100期，自己给自己撒个花，但是最近也一直在迷茫，未来应该怎么把栏目做得越来越好呢，希望大家可以给我多提宝贵建议。那不多说，进入正式内容。&lt;br /&gt;
@@ -290,11 +297,11 @@ MiroThinker1.5中 提出了“深度交互 Scaling”的概念——不再卷参
 &lt;p&gt;100期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点100期」，链接：https://pan.quark.cn/s/32a4e4b816fe&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/100.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/100.md</guid>
     </item>
     <item>
       <title>99</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/99.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/99.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -304,9 +311,9 @@ MiroThinker1.5中 提出了“深度交互 Scaling”的概念——不再卷参
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1mJiFBKE48/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1mJiFBKE48/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第99期(2025/12/29 - 2026/1/3），本期内容包括AI 编码代理的编排平台、Claude skill、agent生成UI、macOS 系统清理工具、终端文本编辑器和简历生成器。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;br /&gt;
 朋友一转眼好久不见，上次更新视频还是去年的事情，最近mate收购manus，智谱快要赴港上市，全球AI一下突然更火热了，每个辛勤的创业者和投机者，都希望可以一夜暴富，你觉得2026会怎么样呢？那我们一块开启新的一年吧。&lt;br /&gt;
@@ -384,11 +391,11 @@ RenderCV 是一个面向学术与工程人群的 简历生成器：你用 YAML �
 &lt;p&gt;99期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点99期」，链接：https://pan.quark.cn/s/d092e17f4058&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/99.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/99.md</guid>
     </item>
     <item>
       <title>97</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/97.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/97.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -398,9 +405,9 @@ RenderCV 是一个面向学术与工程人群的 简历生成器：你用 YAML �
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;h2&gt;视频&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV12jmeBxEw3/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第97期(2025/12/7 - 12/13），本期内容包括自动操作手机的Agent、AI画架构图、AI编程的指导、看板工具、GO语言的游戏引擎和具身智能资料库。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;br /&gt;
@@ -475,11 +482,11 @@ Kaiju 力图在场景、渲染、资源管理等方面弹性覆盖2D和3D两种�
 第二个是《中美机器人发展深度分析报告》，最近我正好在看一些关于具身智能机器人的内容，然后发现了这个报告，他是从投资的角度来解析机器人企业的商业逻辑，感兴趣的可以看一下。&lt;br /&gt;
 有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/97.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/97.md</guid>
     </item>
     <item>
       <title>98</title>
-      <link>https://github.com/你的用户名/你的仓库名/blob/main/post/98.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/98.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -489,9 +496,9 @@ Kaiju 力图在场景、渲染、资源管理等方面弹性覆盖2D和3D两种�
         h1, h2, h3 { margin: 15px 0 5px; }
         p { line-height: 1.6; margin: 8px 0; }
         ul, ol { margin: 8px 0 8px 20px; }
-        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; } /* 图片自适应 */
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
     &lt;/style&gt;
-    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;h2&gt;视频&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Rjq2BmEpc/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;GitHub 一周热点第98期(2025/12/14 - 12/20），本期内容包括AI文档理解检索框架、微软最新的TTS框架、Claude Code 记忆插件、自动化备份工具、 jellyfin的桌面端和linux桌面环境。&lt;br /&gt;
 最后还有 2 份资料分享。&lt;/p&gt;
@@ -576,7 +583,7 @@ Cosmic提供高性能、高效率和个性化功能，可满足各种使用场�
 &lt;p&gt;98期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点98期」，链接：https://pan.quark.cn/s/d2108283bc40&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/你的用户名/你的仓库名/blob/main/post/98.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/98.md</guid>
     </item>
   </channel>
 </rss>
