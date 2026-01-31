@@ -2,20 +2,20 @@
 <rss version="2.0">
   <channel>
     <title>IT咖啡馆的github每周热点项目</title>
-    <link>https://github.com/itcoffee66/githubweekly</link>
+    <link>https://github.com/qjm100/githubweekly</link>
     <description>github 每周热点项目</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 31 Jan 2026 09:46:22 GMT</pubDate>
+    <pubDate>Sat, 31 Jan 2026 10:16:35 GMT</pubDate>
     <image>
-      <url>https://github.com/itcoffee66/githubweekly/raw/main/asset/it-coffee-circle.png</url>
+      <url>https://github.com/qjm100/githubweekly/raw/main/asset/it-coffee-circle.png</url>
       <title>IT咖啡馆的github每周热点项目</title>
-      <link>https://github.com/itcoffee66/githubweekly</link>
+      <link>https://github.com/qjm100/githubweekly</link>
       <width>144</width>
       <height>144</height>
     </image>
     <item>
       <title>101</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/101.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/101.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -49,7 +49,7 @@
 &lt;/ul&gt;
 &lt;p&gt;最近cowork一经发布就获得很多关注，它让 Claude 变成一个能操作你电脑文件的 AI Agent，热度一高开源就马上有很多跟上的，在Github上有不少自称是开源cowork的，这里热度比较高的有3个，eigent、openwork、AionUI。这当中eigent的star最多，我们就介绍下它。&lt;br /&gt;
 Eigent 自称是全球首个 多智能体工作流 桌面应用程序，帮助您构建、管理和部署定制化的 AI 工作团队，将最复杂的工作流程转化为自动化任务。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/2-1.webp&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/2-1.webp&quot; /&gt;&lt;br /&gt;
 它基于 CAMEL-AI 多智能体框架 构建，通过并行调度多个专责 agent 协同工作来完成跨步骤任务。目前看能做的工作还是那些，比如做研究、自动定行程、操作本地文件等等。&lt;br /&gt;
 它直接内置了几个智能体，包括：&lt;br /&gt;
 - 开发智能体：编写和执行代码，运行终端命令。&lt;br /&gt;
@@ -58,7 +58,7 @@ Eigent 自称是全球首个 多智能体工作流 桌面应用程序，帮助�
 - 多模态智能体：处理图像和音频。&lt;br /&gt;
 目前它提供了可自托管部署的版本和云版本，还有一个企业版，应该是为了后续变现的准备。&lt;br /&gt;
 模型方面你可以使用在线API，也可以使用本地的模型。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/2-2.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/2-2.png&quot; /&gt;&lt;br /&gt;
 现在整体来看eigent做了不少内容，但是也还是不够完善，这可能也是它开源的一个原因吧。感兴趣的可以自己去试试。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;3 data-engineering-zoomcamp&lt;/h2&gt;
@@ -67,10 +67,10 @@ Eigent 自称是全球首个 多智能体工作流 桌面应用程序，帮助�
 &lt;li&gt;GitHub 链接：https://github.com/DataTalksClub/data-engineering-zoomcamp     &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Data Engineering Zoomcamp 是由 DataTalks 社区维护的开源数据工程训练营课程仓库，它是一个完整的 学习项目 + 在线课程材料集合，内容覆盖从基础工具到生产级数据管道设计的全流程教程、代码示例与实践任务。旨在帮助你掌握构建真实世界数据工程系统所需的核心技能。 &lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/3-1.jpg&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/3-1.jpg&quot; /&gt;&lt;br /&gt;
 想要学习课程的话，需要你有一些基本编程经验，最好是Python 编程经验，还需要熟悉 SQL。&lt;br /&gt;
 课程是9周，一共是6个大模块和一个final project，每个模块都有很多的视频，看起来不错。比较适合那些想进入数据工程领域的初学者。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/3-2.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/3-2.png&quot; /&gt;&lt;br /&gt;
 在数据工程方面我也不是太专业，有专业的朋友可以聊聊这个课程的实际质量如何。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;4 chrome-devtools-mcp&lt;/h2&gt;
@@ -89,10 +89,10 @@ Eigent 自称是全球首个 多智能体工作流 桌面应用程序，帮助�
 &lt;/ul&gt;
 &lt;p&gt;看完了一个MCP，那我们再来看一个非常不错的agent skill。&lt;br /&gt;
 UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设计智能库，核心目的是让像 Claude Code、Cursor、Windsurf、Copilot、OpenCode 等助手 生成的界面 更专业、更符合 UI/UX 实践标准，不再只是简单“写点样式堆在一起”。这个 Skill 本质上是一个 结构化的设计知识库 + 设计系统生成引擎，在 AI 接到 UI/UX 相关任务的时候自动注入背景知识与规范，帮助输出高质量、跨平台的界面设计与代码建议。 &lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/5-1.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/5-1.png&quot; /&gt;&lt;br /&gt;
 安装的话，你可以根据自己喜欢的工具来选择，用自带的CLI工具或者是手动安装。&lt;br /&gt;
 使用的话可以直接说开发什么内容，比如我让它开发宠物食品的landingpage，然后它会根据信息去自己推理，然后搜索自己的方案信息，选择合适的设计方案，最终给出一个完整系统风格设计。可以看下我实际体验的例子的效果。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/5-2.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/5-2.png&quot; /&gt;&lt;br /&gt;
 它包含了很多内容，像67 个UI样式，96 种颜色方案、56 种字体搭配、100条行业特定推理规则等内容。&lt;br /&gt;
 提示一下，使用时如果你安装的skill比较多，担心冲突，可以指定使用这个技能来完成任务。&lt;br /&gt;
 如果你困扰AI写的UI，AI味太浓，那这个确实可以帮到你。同时对于像我这样对设计不是太懂的人，这其中内容也很值得去了解的，可以帮助更好的理解vibe coding。&lt;/p&gt;
@@ -103,10 +103,10 @@ UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设�
 &lt;li&gt;GitHub 链接：https://github.com/VoidmatrixHeathcliff/VoidNovelEngine&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;VoidNovel Engine 是一款专为现代视觉小说和叙事游戏开发者打造的开源引擎，那可以用它来做什么呢，就比如开发galgame。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/6-1.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/6-1.png&quot; /&gt;&lt;br /&gt;
 它采用了创新性的无代码开发范式，使用流程图式的节点编辑，无需再去死磕晦涩抽象的脚本语言，而是用直观的拖拽、连接节点来构建完整的游戏逻辑、分支对话和演出流程，让开发过程如同绘制思维导图一般自然流畅。&lt;br /&gt;
 除了设计的思路和Galgame的创作逻辑非常契合，它还提供大量开箱即用的专用节点（如对话、选项、转场、角色控制等）。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post101/6-2.png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post101/6-2.png&quot; /&gt;&lt;br /&gt;
 可以直接从release下载打包好的二进制版本，使用的方法项目也提供了比较详细的文档，现在AI在生成素材上也方便了许多，感觉可以让galgame的开发更容易上手。&lt;br /&gt;
 你也知道我不是特别特别喜好galgame，那就由各位爱好者自己去深入研究吧。&lt;/p&gt;
 &lt;hr /&gt;
@@ -117,11 +117,11 @@ UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设�
 &lt;p&gt;101期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点101期」，链接：https://pan.quark.cn/s/015fd96302ba&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/101.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/101.md</guid>
     </item>
     <item>
       <title>96</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/96.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/96.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -206,11 +206,11 @@ Nginx Proxy Manager是一个开源Nginx管理工具 — 基于 Nginx + Docker �
 &lt;p&gt;96期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点96期」，链接：https://pan.quark.cn/s/ad818fc0f6e5&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/96.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/96.md</guid>
     </item>
     <item>
       <title>100</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/100.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/100.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -297,11 +297,11 @@ MiroThinker1.5中 提出了“深度交互 Scaling”的概念——不再卷参
 &lt;p&gt;100期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点100期」，链接：https://pan.quark.cn/s/32a4e4b816fe&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/100.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/100.md</guid>
     </item>
     <item>
       <title>99</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/99.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/99.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -391,11 +391,11 @@ RenderCV 是一个面向学术与工程人群的 简历生成器：你用 YAML �
 &lt;p&gt;99期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点99期」，链接：https://pan.quark.cn/s/d092e17f4058&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/99.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/99.md</guid>
     </item>
     <item>
       <title>97</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/97.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/97.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -482,11 +482,11 @@ Kaiju 力图在场景、渲染、资源管理等方面弹性覆盖2D和3D两种�
 第二个是《中美机器人发展深度分析报告》，最近我正好在看一些关于具身智能机器人的内容，然后发现了这个报告，他是从投资的角度来解析机器人企业的商业逻辑，感兴趣的可以看一下。&lt;br /&gt;
 有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/97.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/97.md</guid>
     </item>
     <item>
       <title>98</title>
-      <link>https://github.com/itcoffee66/githubweekly/blob/main/post/98.md</link>
+      <link>https://github.com/qjm100/githubweekly/blob/main/post/98.md</link>
       <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
     &lt;style&gt;
         .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
@@ -523,7 +523,7 @@ make&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;start-all
 &lt;p&gt;同时WeKnora 作为微信对话开放平台的核心技术框架，能通过微信对话开放平台零代码接入微信生态。&lt;/p&gt;
 &lt;p&gt;可以把它用在很多常见的企业场景，比如内部知识库 / 文档问答：将产品手册、规范文档、培训资料等变成可查询的智能语义库。 科研资料分析：对学术论文、多格式报告库做语义抽取与智能问答。 客服与支持自动化：自动理解用户问题，结合文档数据生成专业回答。&lt;br /&gt;
 整个框架采用模块化架构，融合多模态预处理、语义向量索引、智能召回与大模型生成推理，构建起高效、可控的文档问答流程。&lt;br /&gt;
-&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/itcoffee66/githubweekly/raw/main/../../../../../asset/post98/architecture%20(1).png&quot; /&gt;&lt;br /&gt;
+&lt;img alt=&quot;图片&quot; src=&quot;https://github.com/qjm100/githubweekly/raw/main//asset/post98/architecture%20(1).png&quot; /&gt;&lt;br /&gt;
 技术角度，主开发语言是Golang，前端采用Vue，支持Python扩展，开源协议 采用MIT协议，在商用方面也非常友好。&lt;/p&gt;
 &lt;hr /&gt;
 &lt;h2&gt;2 VibeVoice&lt;/h2&gt;
@@ -583,7 +583,7 @@ Cosmic提供高性能、高效率和个性化功能，可满足各种使用场�
 &lt;p&gt;98期分享内容：&lt;br /&gt;
 我用夸克网盘给你分享了「一周热点98期」，链接：https://pan.quark.cn/s/d2108283bc40&lt;/p&gt;&lt;/div&gt;</description>
       <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
-      <guid>https://github.com/itcoffee66/githubweekly/blob/main/post/98.md</guid>
+      <guid>https://github.com/qjm100/githubweekly/blob/main/post/98.md</guid>
     </item>
   </channel>
 </rss>
