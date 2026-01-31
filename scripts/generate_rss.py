@@ -165,7 +165,7 @@ def replace_md_image_paths(md_content, md_file_path):
         rel_img_path = os.path.relpath(abs_img_path, repo_root)
 
         # Build GitHub RAW URL (encode spaces)
-        img_raw_link = f"{RSS_LINK}/githubweekly/{rel_img_path.replace(' ', '%20')}"  # 修复：使用相对仓库根目录的路径
+        img_raw_link = f"{RSS_LINK}/{abs_img_path.replace(' ', '%20')}"  # 修复：使用相对仓库根目录的路径
         return f"![{alt_text}]({img_raw_link})"
 
     return image_pattern.sub(_replace_image_match, md_content)
