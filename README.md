@@ -20,4 +20,4 @@ GitHub一周热点汇总，每周分享热门项目，B站、YouTube发布视频
 使用RSS 订阅软件可以快速知道本周github热点项目
 
 订阅地址为
-[https://github.com/itcoffee66/githubweekly/raw/refs/heads/main/rss.xml](https://github.com/itcoffee66/githubweekly/raw/refs/heads/main/rss.xml)
+[https://itcoffee66.github.io/githubweekly/rss.xml](https://itcoffee66.github.io/githubweekly/rss.xml)
