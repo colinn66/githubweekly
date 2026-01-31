@@ -111,7 +111,7 @@ def replace_md_image_paths(md_content, md_file_path):
 
     def _replace_image_match(match):
         """Inner function to process each regex match (private by Google style)."""
-        alt_text = match.g".")
+        alt_text = match.group(1)
         img_path = match.group(2).strip()
 
         # Skip already absolute URLs
