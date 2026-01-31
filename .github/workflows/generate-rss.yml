@@ -1,5 +1,7 @@
 name: Generate RSS from MD Files
-
+#修复权限问题
+permissions:
+  contents: write
 # 触发条件：push 到 main 分支，MD 文件变更时触发
 on:
   push:
