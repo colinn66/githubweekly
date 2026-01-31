@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title><![CDATA[我的文章更新 RSS 订阅]]></title>
-        <description><![CDATA[实时获取我的最新文章更新]]></description>
+        <title><![CDATA[IT咖啡馆的github每日周报]]></title>
+        <description><![CDATA[订阅]]></description>
         <link>https://github.com/qjm100/githubweekly</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 29 Jan 2026 09:33:08 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 31 Jan 2026 08:14:46 GMT</lastBuildDate>
         <atom:link href="https://github.com/qjm100/githubweekly/raw/main/rss.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Thu, 29 Jan 2026 09:33:08 GMT</pubDate>
+        <pubDate>Sat, 31 Jan 2026 08:14:46 GMT</pubDate>
         <copyright><![CDATA[© 2026 qjm100]]></copyright>
         <language><![CDATA[zh-CN]]></language>
     </channel>
