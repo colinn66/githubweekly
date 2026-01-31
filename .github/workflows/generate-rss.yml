@@ -1,37 +1,42 @@
 name: Generate RSS from MD Files
 
-# 触发条件：push 到 main 分支（可改为其他分支）
+# 触发条件：push 到 main 分支，MD 文件变更时触发
 on:
   push:
     branches: [main]
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. 拉取仓库代码
+      # 1. 拉取仓库代码（fetch-depth: 0 确保能获取完整提交历史）
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # 拉取完整历史（可选）
+          fetch-depth: 0 # 必须！否则 git log 无法获取文件提交时间
 
       # 2. 设置 Python 环境
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.10" # 指定 Python 版本
+          python-version: "3.10"
 
-      # 3. 运行 RSS 生成脚本
+      # 3. 手动安装依赖（比脚本内自动安装更稳定）
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install markdown pygments  # pygments 用于代码块高亮
+
+      # 4. 运行 RSS 生成脚本
       - name: Generate RSS file
         run: |
           python scripts/generate_rss.py
 
-      # 4. 提交并推送 RSS 文件到仓库
+      # 5. 提交并推送 rss.xml 到仓库
       - name: Commit and push RSS.xml
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Auto-generate rss.xml from MD files"
+          commit_message: "chore: auto-generate rss.xml (full HTML content)"
           file_pattern: "rss.xml" # 仅提交 rss.xml
-          branch: main # 推送分支（与触发分支一致）
+          branch: main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # GitHub 自动生成的令牌，无需手动配置
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 自动生成的令牌，无需手动配置
