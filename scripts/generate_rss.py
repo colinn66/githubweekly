@@ -31,7 +31,7 @@ except ImportError:
 # -----------------------------------------------------------------------------
 # RSS Feed Core Configuration
 RSS_TITLE = "IT咖啡馆的github每周热点项目"
-RSS_LINK = "https://github.com/qjm100/githubweekly"  # Replace with your repo URL
+RSS_LINK = "https://github.com/itcoffee66/githubweekly"  # Replace with your repo URL
 RSS_DESCRIPTION = "github 每周热点项目"
 RSS_LANGUAGE = "zh-CN"
 
