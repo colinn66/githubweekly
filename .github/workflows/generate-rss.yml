@@ -35,8 +35,8 @@ jobs:
 
           // RSS 基础配置（根据你的仓库修改）
           const feed = new RSS({
-            title: '我的文章更新 RSS 订阅', // 订阅标题
-            description: '实时获取我的最新文章更新', // 订阅描述
+            title: 'IT咖啡馆的github每日周报', // 订阅标题
+            description: '订阅', // 订阅描述
             feed_url: 'https://github.com/${{ github.repository }}/raw/main/rss.xml', // RSS 文件地址
             site_url: 'https://github.com/${{ github.repository }}', // 仓库地址
             language: 'zh-CN', // 语言
@@ -56,7 +56,7 @@ jobs:
             if (!frontmatter.title) return;
             
             // 构造文章链接（仓库 raw 地址）
-            const postUrl = `https://github.com/${{ github.repository }}/raw/main/${file}`;
+            const postUrl = `https://raw.githubusercontent.com/${{ github.repository }}/refs/heads/main/${file}`;
             
             // 添加文章到 RSS
             feed.item({
