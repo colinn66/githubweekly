@@ -1,18 +1,21 @@
-name: Generate RSS from MD Files
+name: Generate HTML & RSS from MD Files
 
 # 触发条件：push 到 main 分支，MD 文件变更时触发
 on:
   push:
     branches: [main]
+    paths:
+      - "post/**/*.md" # 仅监听post目录下的md文件变更
+      - "scripts/generate_rss.py"
+      - ".github/workflows/generate_rss.yml"
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # 1. 拉取仓库代码（fetch-depth: 0 确保能获取完整提交历史）
+      # 1. 拉取仓库代码
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # 必须！否则 git log 无法获取文件提交时间
 
       # 2. 设置 Python 环境
       - name: Set up Python
@@ -20,23 +23,23 @@ jobs:
         with:
           python-version: "3.10"
 
-      # 3. 手动安装依赖（比脚本内自动安装更稳定）
+      # 3. 手动安装依赖
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install markdown pygments  # pygments 用于代码块高亮
 
-      # 4. 运行 RSS 生成脚本
-      - name: Generate RSS file
+      # 4. 运行脚本生成HTML和RSS
+      - name: Generate HTML and RSS files
         run: |
           python scripts/generate_rss.py
 
-      # 5. 提交并推送 rss.xml 到仓库
-      - name: Commit and push RSS.xml
+      # 5. 提交并推送生成的文件（包含HTML和RSS）
+      - name: Commit and push generated files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: auto-generate rss.xml (full HTML content)"
-          file_pattern: "rss.xml" # 仅提交 rss.xml
+          commit_message: "chore: auto-generate HTML files and rss.xml"
+          file_pattern: "asset/html/*.html rss.xml" # 提交HTML目录和RSS文件
           branch: main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # 自动生成的令牌，无需手动配置
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
