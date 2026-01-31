@@ -1,98 +1,606 @@
-<?xml version="1.0" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>rss 订阅</title>
+    <title>我的 MD 文件 RSS 订阅</title>
     <link>https://github.com/qjm100/githubweekly</link>
-    <description>自动生成的 MD 文件 RSS 订阅</description>
+    <description>基于 Commit 时间自动生成的 MD 文件 RSS 订阅（完整 HTML 内容）</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 31 Jan 2026 08:31:16 GMT</pubDate>
+    <pubDate>Sat, 31 Jan 2026 08:43:05 GMT</pubDate>
     <item>
       <title>README</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./README.md</link>
-      <description>&lt;p align=&quot;center&quot;&gt;
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;p align=&quot;center&quot;&gt;
   &lt;a href=&quot;https://github.com/itcoffee66/githubweekly&quot;&gt;
     &lt;img src=&quot;asset/it-coffee-circle.png&quot; alt=&quot;LangExtract Logo&quot; width=&quot;128&quot; /&gt;
   &lt;/a&gt;
 &lt;/p&gt;
-
-## githubweekly
-
-GitHub一周热点汇总，每周</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+&lt;h2&gt;githubweekly&lt;/h2&gt;
+&lt;p&gt;GitHub一周热点汇总，每周分享热门项目，B站、YouTube发布视频版本，搜：IT咖啡馆   &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第101期：&lt;a href=&quot;post/101.md&quot;&gt;IT咖啡馆的Github一周热点上线了&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;第100期：&lt;a href=&quot;post/100.md&quot;&gt;火爆的AI编程代理&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;第99期：&lt;a href=&quot;post/99.md&quot;&gt;提升Claude code效率10倍的工具？&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;第98期：&lt;a href=&quot;post/98.md&quot;&gt;AI文档检索框架&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;第97期：&lt;a href=&quot;post/97.md&quot;&gt;自动操作手机的智能助手&lt;/a&gt;    &lt;/li&gt;
+&lt;li&gt;第96期：&lt;a href=&quot;post/96.md&quot;&gt;FLUX发布了新一代，但似乎没那么惊艳了&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./README.md</guid>
     </item>
     <item>
       <title>101</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/101.md</link>
-      <description>## 视频
-[本期视频链接](https://www.bilibili.com/video/BV1fqzrB1Enm/)
-
-GitHub 一周热点第101期(2025/1/18 - 2026/1/24），本期内容包括Github一周热点的开源仓库，开源版cowork，数据工程实战课程，浏览器MCP，专业设计的agent skill和无代码galgame引擎。
-最后还有 2 份资料分享。
-如果觉得内</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1fqzrB1Enm/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第101期(2025/1/18 - 2026/1/24），本期内容包括Github一周热点的开源仓库，开源版cowork，数据工程实战课程，浏览器MCP，专业设计的agent skill和无代码galgame引擎。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;br /&gt;
+如果觉得内容不错，别忘了点赞关注支持一下。&lt;/p&gt;
+&lt;h2&gt;1 Githubweekly&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Githubweekly –  Github一周热点&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/itcoffee66/githubweekly      &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;朋友这个项目绝对是值得你点个star的项目，因为这个是IT咖啡馆自己的。之前很多朋友一直想要文字版的每一期的内容，我也一直在考虑以什么样的形式来分享会更好。当然，肯定不是因为我很懒所以一直没做。&lt;br /&gt;
+最后我决定还是搞一个Github仓库吧，以后每一期的文字的内容我会发布到这个仓库里，目前往期的内容还没有全部都加进去，我会逐步都放进去。前几天也在搞一搞AI的工作流来做这个事，但是都还是不特别稳定，总会有一些小内容错误，后面我再逐渐改进吧。&lt;br /&gt;
+放到Github还有个好处，如果有想提建议或者想投稿项目的话，可以直接提Issue。&lt;br /&gt;
+后续我再考虑下要不要再搞个静态页或这个其他内容，总之先开个头吧。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 Eigent&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Eigent –  开源cowork&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/eigent-ai/eigent      &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最近cowork一经发布就获得很多关注，它让 Claude 变成一个能操作你电脑文件的 AI Agent，热度一高开源就马上有很多跟上的，在Github上有不少自称是开源cowork的，这里热度比较高的有3个，eigent、openwork、AionUI。这当中eigent的star最多，我们就介绍下它。&lt;br /&gt;
+Eigent 自称是全球首个 多智能体工作流 桌面应用程序，帮助您构建、管理和部署定制化的 AI 工作团队，将最复杂的工作流程转化为自动化任务。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/2-1.webp&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+它基于 CAMEL-AI 多智能体框架 构建，通过并行调度多个专责 agent 协同工作来完成跨步骤任务。目前看能做的工作还是那些，比如做研究、自动定行程、操作本地文件等等。&lt;br /&gt;
+它直接内置了几个智能体，包括：&lt;br /&gt;
+- 开发智能体：编写和执行代码，运行终端命令。&lt;br /&gt;
+- 搜索智能体：搜索网络并提取内容。&lt;br /&gt;
+- 文档智能体：创建和管理文档。&lt;br /&gt;
+- 多模态智能体：处理图像和音频。&lt;br /&gt;
+目前它提供了可自托管部署的版本和云版本，还有一个企业版，应该是为了后续变现的准备。&lt;br /&gt;
+模型方面你可以使用在线API，也可以使用本地的模型。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/2-2.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+现在整体来看eigent做了不少内容，但是也还是不够完善，这可能也是它开源的一个原因吧。感兴趣的可以自己去试试。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 data-engineering-zoomcamp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：data-engineering-zoomcamp – 数据工程实战课程&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/DataTalksClub/data-engineering-zoomcamp     &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Data Engineering Zoomcamp 是由 DataTalks 社区维护的开源数据工程训练营课程仓库，它是一个完整的 学习项目 + 在线课程材料集合，内容覆盖从基础工具到生产级数据管道设计的全流程教程、代码示例与实践任务。旨在帮助你掌握构建真实世界数据工程系统所需的核心技能。 &lt;br /&gt;
+&lt;a href=&quot;/asset/post101/3-1.jpg&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+想要学习课程的话，需要你有一些基本编程经验，最好是Python 编程经验，还需要熟悉 SQL。&lt;br /&gt;
+课程是9周，一共是6个大模块和一个final project，每个模块都有很多的视频，看起来不错。比较适合那些想进入数据工程领域的初学者。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/3-2.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+在数据工程方面我也不是太专业，有专业的朋友可以聊聊这个课程的实际质量如何。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;4 chrome-devtools-mcp&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：chrome-devtools-mcp – 浏览器MCP&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/ChromeDevTools/chrome-devtools-mcp&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Chrome-DevTools-MCP 是一个开源的 MCP server，最近好像风头在agent skill，大家似乎要忘了MCP，所以我们选一个MCP。它专门为支持 MCP 的 AI 编程助手（例如 Claude、Cursor、Copilot、Gemini CLI、Cline 等）提供 对真实 Chrome 浏览器实例的访问与控制能力。它让这些智能体不仅能生成代码，还能 启动 Chrome、导航页面、调试、抓取性能数据、分析网络/控制台信息，从而实现更可靠的自动化、调试和性能优化。&lt;/p&gt;
+&lt;p&gt;使用的话就是在你的工具里去配置MCP，这里有各种版本配置说明，配置好后就可以输入命令来使用了。&lt;br /&gt;
+在使用Chrome-DevTools-MCP 的时候相较于playwright mcp，它可以很方便的保留登录信息，这在很多调试场景和AI自动化场景中会方便很多。另外Chrome-DevTools-MCP支持的功能也比较全。&lt;br /&gt;
+整体来说Chrome-DevTools-MCP绝对是一个非常实用的MCP server，这个工具比较适合前端开发者和性能工程师、代码自动化与测试自动化，以及CICD。&lt;/p&gt;
+&lt;h2&gt;5 ui-ux-pro-max-skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：ui-ux-pro-max-skill – 专业设计agent skill&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/nextlevelbuilder/ui-ux-pro-max-skill&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;看完了一个MCP，那我们再来看一个非常不错的agent skill。&lt;br /&gt;
+UI-UX Pro Max Skill 是一个 面向 AI 编程助手（AI Skill） 的开源设计智能库，核心目的是让像 Claude Code、Cursor、Windsurf、Copilot、OpenCode 等助手 生成的界面 更专业、更符合 UI/UX 实践标准，不再只是简单“写点样式堆在一起”。这个 Skill 本质上是一个 结构化的设计知识库 + 设计系统生成引擎，在 AI 接到 UI/UX 相关任务的时候自动注入背景知识与规范，帮助输出高质量、跨平台的界面设计与代码建议。 &lt;br /&gt;
+&lt;a href=&quot;/asset/post101/5-1.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+安装的话，你可以根据自己喜欢的工具来选择，用自带的CLI工具或者是手动安装。&lt;br /&gt;
+使用的话可以直接说开发什么内容，比如我让它开发宠物食品的landingpage，然后它会根据信息去自己推理，然后搜索自己的方案信息，选择合适的设计方案，最终给出一个完整系统风格设计。可以看下我实际体验的例子的效果。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/5-2.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+它包含了很多内容，像67 个UI样式，96 种颜色方案、56 种字体搭配、100条行业特定推理规则等内容。&lt;br /&gt;
+提示一下，使用时如果你安装的skill比较多，担心冲突，可以指定使用这个技能来完成任务。&lt;br /&gt;
+如果你困扰AI写的UI，AI味太浓，那这个确实可以帮到你。同时对于像我这样对设计不是太懂的人，这其中内容也很值得去了解的，可以帮助更好的理解vibe coding。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 VoidNovelEngine&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：VoidNovelEngine – 无代码galgame引擎&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/VoidmatrixHeathcliff/VoidNovelEngine&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;VoidNovel Engine 是一款专为现代视觉小说和叙事游戏开发者打造的开源引擎，那可以用它来做什么呢，就比如开发galgame。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/6-1.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+它采用了创新性的无代码开发范式，使用流程图式的节点编辑，无需再去死磕晦涩抽象的脚本语言，而是用直观的拖拽、连接节点来构建完整的游戏逻辑、分支对话和演出流程，让开发过程如同绘制思维导图一般自然流畅。&lt;br /&gt;
+除了设计的思路和Galgame的创作逻辑非常契合，它还提供大量开箱即用的专用节点（如对话、选项、转场、角色控制等）。&lt;br /&gt;
+&lt;a href=&quot;/asset/post101/6-2.png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+可以直接从release下载打包好的二进制版本，使用的方法项目也提供了比较详细的文档，现在AI在生成素材上也方便了许多，感觉可以让galgame的开发更容易上手。&lt;br /&gt;
+你也知道我不是特别特别喜好galgame，那就由各位爱好者自己去深入研究吧。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;one more thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份是《“情绪疗愈”消费市场趋势盘点》，现代人的情绪问题是一个非常值得关注的方向，很多人都有隐性的情绪问题，我之前也有视频聊过情绪问题和AI结合的思考，这个报告是从市场的角度来分析情绪疗愈。&lt;/p&gt;
+&lt;p&gt;第二个是《AI智能体圣经》，CB insight发布，随着AI agent市场的不断升温，企业需要有自己正确的策略，报告分析超过500家以上的AI agent初创公司，给出了2026的趋势分析和洞察。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;
+&lt;p&gt;101期分享内容：&lt;br /&gt;
+我用夸克网盘给你分享了「一周热点101期」，链接：https://pan.quark.cn/s/015fd96302ba&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/101.md</guid>
     </item>
     <item>
       <title>96</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/96.md</link>
-      <description>## 视频
-[本期视频链接](https://www.bilibili.com/video/BV17K2sBEEUR/)
-
-GitHub 一周热点第96期(2025/11/30 - 12/6），本期内容包括最新AI绘图模型、腾讯的视频生成模型、AI的个性化动态记忆、开源版的MAC Launchpad、笔记和知识库系统，还有Nginx可视化管理工具。
-最后还有 2 份资料分享。
-如果觉得内容不错，别</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV17K2sBEEUR/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第96期(2025/11/30 - 12/6），本期内容包括最新AI绘图模型、腾讯的视频生成模型、AI的个性化动态记忆、开源版的MAC Launchpad、笔记和知识库系统，还有Nginx可视化管理工具。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;br /&gt;
+如果觉得内容不错，别忘了点赞关注支持一下。&lt;/p&gt;
+&lt;h2&gt;1 Flux2&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Flux2 – 最新AI绘图模型&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/black-forest-labs/flux2&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;作为 FLUX 系列的第二代产品，FLUX.2 此次推出 4 款基础模型 + 1 个 VAE 模型，这当中也是开源和闭源组合的形式，flux pro 和 flex 是闭源 ， 而大家关注最多的是dev的开源开源版本。它是一个基于 FLUX.2 base模型的 32B 开源权重版本，Black Forest的原版模型比较大，我是跑不起来，如果家里有H100之类的可以试试，一般的要玩玩量化版本。&lt;br /&gt;
+上手话可以直接用comfyui，比较方便，我是直接用comfyui的fp8版本模型，也有33G，其实硬件门槛还是很高的，而且要注意如果商用的话需要获得授权，这里它的协议是特有的。&lt;br /&gt;
+FLUX.2这次的提升主要在三个关键维度：多图参考支持、4兆超高分辨率编辑和复杂文本渲染能力。你可以理解成是flux1+flux context的组合加升级。&lt;br /&gt;
+能处理最多10张参考图像，实现角色、产品和风格的高度一致性，一致性准确率超过95%。原生支持4兆像素（4MP）的图像生成与编辑，能清晰呈现织物纹理、金属反光等精细细节。&lt;br /&gt;
+但是这一次升级也能感到AI世界格局的变化，虽然这一次flux2很强，但flux1发布时的惊艳已经无法继续了，现在世界的目光都在nano Banana 身上，也能感到当小团队和大公司竞争时候的一种无奈吧。所以你更看flux，还是nano Banana 呢？&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 HunyuanVideo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：HunyuanVideo – 腾讯的视频生成模型&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/Tencent-Hunyuan/HunyuanVideo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;HunyuanVideo 是一个腾讯开源的视频生成基础模型框架，在这个框架之下之前也是发布过多款模型，最近HunyuanVideo1.5的发布，它是是一款视频生成模型，仅需 8.3B 参数实现了顶级画质，显著降低了使用门槛。它可在消费级 GPU 上流畅运行，让每一位开发者和创作者都能轻松上手，大概需要14GB显存可以完成视频生成，相对比较来说一般wan2.2大概需要20G以上，确实要更友好一些。&lt;br /&gt;
+如果想自己试玩的话，也可以直接使用comfyui，里面有配置好的工作流，可以下载模型来使用。&lt;br /&gt;
+HunyuanVideo-1.5同时支持文本驱动和图像引导两种生成模式，且共享统一架构避免了传统多模型切换的兼容性问题。这也衍生出了一些扩展玩法，像先用T2V生成场景，再截取关键帧作为I2V输入，实现多镜头叙事。&lt;br /&gt;
+HunyuanVideo1.5也发布了对应的技术报告，里面有介绍使用的关键技术，像SSTA稀疏注意力机制等，感兴趣的可以自己下来仔细研究一下。我觉得它和wan并能说谁比谁绝对好，希望可以共同进步吧。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 Cognee&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Cognee – AI的个性化动态记忆&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/topoteretes/cognee&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cognee 是一个开源工具和平台，可将您的原始数据转换为持久且动态的 AI 智能体记忆。它将向量搜索与图数据库相结合，构建出模块化、可扩展的 ECL数据处理管道，ECL是提取、认知化和加载，并且希望可以替换掉RAG。&lt;br /&gt;
+对比Cognee和RAG。&lt;br /&gt;
+RAG向量搜索更多是语义匹配，在处理“关系 /上下文 /结构化知识 /逻辑 /引用 /历史”的时候就很难搞。Cognee增加了知识图谱和持久化记忆的能力，所以它不仅能帮你查「有没有这条信息」，还能帮你查「这个信息和另一个信息有什么关系」，甚至「在历史对话 + 文档 + 媒体里，哪个结果最可信／最相关」。&lt;br /&gt;
+Cognee目前有两种部署方式，一种是完全自托管，数据可以完全保留在本地。如果觉得自己动手能力不足，那也可以使用在线的云服务。&lt;br /&gt;
+使用上项目的一个slogan是Memory for AI Agents in 6 lines of code。所以最简单的上手就参考项目里这个sample，比较简单。&lt;br /&gt;
+另外查看项目的相关文档也能看出，是agent长期记忆 + 知识管理方面做的相对比较完善的一个，所以不管是希望考虑使用还是学习都可以研究一下。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;4 LaunchNext&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：LaunchNext – 开源版的MAC Launchpad&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/RoversX/LaunchNext&lt;br /&gt;
+macOS 26 (Tahoe) 之后，苹果官方废弃了经典的 “Launchpad 启动台” 界面 —— 对喜欢之前的启动台图标启动应用的人来说，新的这个app像是“Dock+Spotlight + 启动台”的混合大杂烩，很多人都不喜欢。&lt;br /&gt;
+既然官方没有给退回去的方案，那开源大神就要出手了，LaunchNext 应运而生：它是一个原生 macOS 程序，目的是帮你 “把 Launchpad 拿回来 并且给它加点现代配料”。 &lt;br /&gt;
+如果安装启动的时候遇到阻止，那就需要自己在终端里执行一下这个命令，作者说了，自己买不起一年99的开发者证书。其实我觉得可以大家打赏支持一下的。&lt;br /&gt;
+LaunchNext和原始 Launchpad 体验几乎一致还多语言支持、可以隐藏图标标签、自定义图标大小 、智能文件夹管理，总之想找回Launchpad的可以去试试了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;5 NoteDiscovery&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：NoteDiscovery – 笔记和知识库系统&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/gamosoft/NoteDiscovery&lt;br /&gt;
+NoteDiscovery 是一个 轻量级、自托管 (self-hosted) 的笔记 / 知识库系统。换句话说，你可以把它当成你自己的 “私人 Notion / Obsidian + Wiki + 云笔记”，不过所有数据都 保存在你自己的服务器 / 硬盘 / Docker 环境里 —— 隐私、安全、自由，全都在你掌控。&lt;br /&gt;
+项目的功能来说是足够支撑日常使用的，当然对于喜欢对比选择的朋友，可以看到项目中给出了自己和商业软件的一些对比，主要的竞争点就在成本、隐私、速度和离线。&lt;br /&gt;
+部署的话，可以使用docker compose，比较简单，很容易上手。&lt;br /&gt;
+其实笔记类的应用真的是非常多，算是一个开源的大品类了。我觉得选择的话，还是看自己的实际需求和习惯，比如我原来是用notion，现在改用飞书了，这个不是广告，就是单纯分享下，主要是我需要在线分享和多端操作，还有一些权限，另外懒得折腾，所以就选了飞书。飞书如果好心给我打点广告费就更好了。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 nginx-proxy-manager&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：nginx-proxy-manager – Nginx可视化管理工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/NginxProxyManager/nginx-proxy-manager&lt;br /&gt;
+Nginx Proxy Manager是一个开源Nginx管理工具 — 基于 Nginx + Docker 的反向代理管理面板 ，使用者可以用“傻瓜式”的配置来管理反向代理、HTTPS／SSL、域名转发、访问控制等功能。&lt;br /&gt;
+如果你对命令行配置Nginx不是太熟练，或者呢你管理的Nginx比较多，希望可以更简单和直观，够可以使用Nginx Proxy Manager。&lt;br /&gt;
+部署的话可以直接使用docker compose来快速启动，还有就是可以通过linux管理面板，比如像1panel之类的来快速安装Nginx Proxy Manager。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;one more thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份《美团的大模型Agent实践手册》，上周分享了字节在Agent方面的实践，这周就又看到了美团的，那就在顺便也分享给大家，大家也可以对比对比两个巨头的差异。&lt;br /&gt;
+第二个是《强化学习的数学基础》，本书旨在以数学化但又通俗易懂的方式介绍强化学习的基本概念、基础问题和经典算法。内容会涉及两部分，第一部分介绍基本工具，第二部分介绍算法。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;
+&lt;p&gt;96期分享内容：&lt;br /&gt;
+我用夸克网盘给你分享了「一周热点96期」，链接：https://pan.quark.cn/s/ad818fc0f6e5&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/96.md</guid>
     </item>
     <item>
       <title>100</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/100.md</link>
-      <description>[本期视频链接](https://www.bilibili.com/video/BV1TDrSBoESB/)
-
-GitHub 一周热点第100期(2025/12/29 - 2026/1/3），本期内容包括开源的 AI 编程代理、AI 开发技能框架、自动操作电脑agent、深度研究agent、icloud下载工具和微信公众号文章导出工具。
-最后还有 2 份资料分享。
-不知不觉我的栏目已经做到了100</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1TDrSBoESB/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第100期(2025/12/29 - 2026/1/3），本期内容包括开源的 AI 编程代理、AI 开发技能框架、自动操作电脑agent、深度研究agent、icloud下载工具和微信公众号文章导出工具。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;br /&gt;
+不知不觉我的栏目已经做到了100期，自己给自己撒个花，但是最近也一直在迷茫，未来应该怎么把栏目做得越来越好呢，希望大家可以给我多提宝贵建议。那不多说，进入正式内容。&lt;br /&gt;
+如果觉得内容不错，别忘了点赞关注支持一下。&lt;/p&gt;
+&lt;h2&gt;1 opencode&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：opencode –  开源的 AI 编程代理&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/anomalyco/opencode&lt;br /&gt;
+OpenCode 是一个 开源的 AI 编程代理，从产品的设计上来说，它的对标的就是Claude code，并且它是一个完全开放的，也就是说它不绑定某一家 大模型提供商，你可以连接 Claude、OpenAI、Google 模型、甚至本地模型，支持 75+ 模型来源，这对不想被单一 API 或闭源服务锁定的用户来说非常友好。&lt;br /&gt;
+让opencode热度暴涨的除了它的产品能力外，还有就是上周的Claude 封号事件，Claude封掉了一波使用OpenCode之类的第三方调用Cladue Code订阅套餐的通道，一下子把opencode推上风口，而反手就是OpenAI的Codex直接宣布支持OpenCode，opencode也是光速推出了ChatGPT plus的接入支持，真实一波朴实无华的商战，敌人的敌人就是朋友。&lt;br /&gt;
+使用上除了终端 TUI，OpenCode 还有 Desktop 应用（Beta）和 IDE 插件（如 VS Code 集成），方便不同开发者根据喜好在合适环境中使用。 你可以为同一个项目启动多个 Agent，来并行的执行任务。&lt;br /&gt;
+所以如果你是有多个平台订阅的用户，那opencode会是个好选择，作为一个开放的社区，再配合像oh-my-opencode等插件工具，你可以让御三家的模型组合到一起来完成开发。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 Superpowers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Superpowers – AI 开发技能框架&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/obra/superpowers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Superpowers 是一个AI 编程代理的括展工作流系统，可以给给 Claude Code /  Codex / OpenCode 等智能编程助手 提供一套完整的软件工程实时技能库和工作流程。&lt;br /&gt;
+我们都知道在大项目里，AI经常表现不稳定，那Superpowers就强行给它植入一套“资深工程师”的工作流，让AI按规矩办事。&lt;br /&gt;
+这个工具主要是为 Claude Code 设计的插件，在Claude code里可以直接通过marketplace来安装。如果是codex或者opencode需要手动安装，但是现在是AI时代了，你也只需要告诉codex获取并按指令安装就行了，还是很方便的。&lt;br /&gt;
+安装好就可以看到它的指令，brainstorm，write-plan，excute-plan。&lt;br /&gt;
+比如输入了需求，他就会自动出发brainstorm技能，像一位经验丰富的架构师，先通过多轮问答与我们对齐需求。然后生成一份尽量详细的开发基准文档，最后再开始实现代码。&lt;br /&gt;
+实际上这当中就是实现了很多个agent skill，我上一期内容中也提到了，skill现在是一个非常火的概念。其实作为skill学习的话，这个项目也非常很值得去查看。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 TARS&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：TARS – AI操作电脑&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/bytedance/UI-TARS-desktop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;TARS 是字节跳动开源的一个多模态 AI Agent Stack，其实这里包含2个开源项目，一个是Agent TARS实现基本的能力，它将 GUI Agent 和 Vision 的强大功能带入你的终端、计算机、浏览器和产品中，提供命令行和网页的用户界面。&lt;br /&gt;
+另一个是UI-TARS Desktop，是一个由 UI-TARS 和 Seed-1.5-VL/1.6 系列模型驱动的原生 GUI agent，用 视觉语言模型 (VLM) 实现对电脑界面（GUI）的理解与交互 —— 也就是说，你可以通过自然语言命令（中文/英文）让 AI 模拟鼠标/键盘操作，在桌面应用、浏览器等环境中完成任务。&lt;br /&gt;
+这类工具应该是26年各大厂商的一个重点发力方向，随着技术的逐渐成熟，人们越来越希望AI可以真的实现自主操作电脑完成任务，产品方面比如说之前的豆包电脑、豆包手机等，但是目前来说主要的问题，还是在于操作的速度、准确性和稳定性。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;4 MiroThinker&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：MiroThinker – 开源的深度研究agent&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/MiroMindAI/MiroThinker&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;MiroThinker 是一个 开源的深度研究代理（open-source search agent model），由 MiroMindAI 维护，目标是构建一个能进行工具增强推理 + 复杂现实世界信息检索的 AI 模型，使其在类似 Deep Research（深度研究）任务中表现出更强的能力。&lt;br /&gt;
+MiroThinker1.5中 提出了“深度交互 Scaling”的概念——不再卷参数，而是让智能体在环境中&quot;试错 + 反思&quot;，完美模拟人类处理复杂问题的方式。&lt;br /&gt;
+官方给出的信息是这种方式非常有效，随着模型与环境交互的深度和频率不断增加，其在多个基准测试中的性能均呈现出可预测的提升，在多个 benchmark 上刷新开源代理表现记录。235B 规模跑出全球第一梯队表现，30B 版本以 1/20 的推理成本对标万亿参数模型。&lt;br /&gt;
+而且它说成功预测 Polymarket 题目、A 股涨停板及 GTA 6 发布趋势。&lt;br /&gt;
+这个大A都能预测的话，那我还是真的干点兴趣，我要试试后面能不能预测准我的持仓股。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;5 icloud_photos_downloader&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：icloud_photos_downloader – icloud下载工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/icloud-photos-downloader/icloud_photos_downloader&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;iCloud Photos Downloader 是一个由社区维护的跨平台命令行工具，用来把你 iCloud 照片库里的全部照片和视频下载到本地（支持 Linux、Windows、macOS、甚至 NAS 设备）。它不是通过 iCloud Drive 同步，而是直接通过 Apple 的云接口获取文件，因此更适合做 备份、迁移或定期同步任务。&lt;br /&gt;
+支持多种操作模式，包括Copy、sync、move，还可以提供自动去重和 断点检查的能力，还是比较实用的。&lt;br /&gt;
+项目本身用 Python 编写，使用上可以在release页面下载安装包，也可以通过像pip、docker、Homebrew等方法来安装和使用。&lt;br /&gt;
+使用时候，要先在 iPhone/iPad 上打开 “访问 iCloud 数据在 Web 上”（Access iCloud Data on the Web） 设置。&lt;br /&gt;
+还要关闭 高级数据保护（Advanced Data Protection），否则可能导致访问被拒绝&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 wechat-article-exporter&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：wechat-article-exporter – 微信公众号文章导出工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/wechat-article/wechat-article-exporter&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;WeChat-Article-Exporter 是一个专注于导出 微信公众号文章 的开源工具，它把公众号文章抓取下来并转换为 Markdown、HTML 或 PDF 格式，适合用来做归档、备份、离线阅读、笔记整理等用途。&lt;br /&gt;
+这个项目本身不是用微信官方 API（因为官方没有公开的提取文章 API），而是通过解析文章在浏览器端的数据（来提取内容。&lt;br /&gt;
+使用的时候需要先扫码登录一个公众号，然后就可以通过搜索来添加公众号，再自动抓取文章内容、标题、作者、正文、图片等，并根据所选格式输出到本地文件，然后可以考虑在通过AI或者其他手段来发掘更多价值。整体做的还是挺完整的，看起来不错。&lt;br /&gt;
+最简单的可以直接在线使用，但是因为要登录公众号，所以肯定会感觉不太放心，也可以自己本地部署，通过docker或者是通过源码都可以，都比较容易。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;one more thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份是《2025抖音科技内容生态报告》，相信大家都有感觉这一年从年初的deepseek，到后来的manus，gemini3，科技浪潮以前所未有的速度和规模席卷而来，我们又一次站在了历史的临界点。可惜报告里值得一看的科技视频里没有我，还是需要努力呀。&lt;br /&gt;
+第二个是《开发者技术及生态发展 2030》，infoq的一份报告，现在的开发者在AI的浪潮中有着各种不同的心态，有的是担忧会被取代，有的觉得未来以来当乘风而上，反正无论心态如何，都可以了解下技术生态的发展情况。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;
+&lt;p&gt;100期分享内容：&lt;br /&gt;
+我用夸克网盘给你分享了「一周热点100期」，链接：https://pan.quark.cn/s/32a4e4b816fe&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/100.md</guid>
     </item>
     <item>
       <title>99</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/99.md</link>
-      <description>[本期视频链接](https://www.bilibili.com/video/BV1mJiFBKE48/)
-
-
-GitHub 一周热点第99期(2025/12/29 - 2026/1/3），本期内容包括AI 编码代理的编排平台、Claude skill、agent生成UI、macOS 系统清理工具、终端文本编辑器和简历生成器。
-最后还有 2 份资料分享。
-朋友一转眼好久不见，上次更新视频还是去年</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1mJiFBKE48/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第99期(2025/12/29 - 2026/1/3），本期内容包括AI 编码代理的编排平台、Claude skill、agent生成UI、macOS 系统清理工具、终端文本编辑器和简历生成器。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;br /&gt;
+朋友一转眼好久不见，上次更新视频还是去年的事情，最近mate收购manus，智谱快要赴港上市，全球AI一下突然更火热了，每个辛勤的创业者和投机者，都希望可以一夜暴富，你觉得2026会怎么样呢？那我们一块开启新的一年吧。&lt;br /&gt;
+如果觉得内容不错，别忘了点赞关注支持一下。&lt;/p&gt;
+&lt;h2&gt;1 vibe-kanban&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：vibe-kanban –  AI 编码代理的编排平台&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/BloopAI/vibe-kanban&lt;br /&gt;
+vibe-kanban号称要让你的Claude code/codex等工具提升10倍的效率，现在我们越来越多的再用AI进行开发，但是同时我也在浪费大量的时间，当AI开始执行一项任务之后，我们就是盯着它闪烁的执行过程。&lt;br /&gt;
+但是因为AI正在修改内容，所以也不太敢同步去做一些修改。&lt;br /&gt;
+vibe-kanban就希望改变这种情，它不是那种让传统的手动拖拽任务的看板软件，而是一个能真正指挥 AI 干活的中央调度台。&lt;br /&gt;
+使用它的话，首先本地要有一个支持的编程 agent，基本主流的都支持。然后npx命令安装。然后就可以开始使用它调度你的工作了。&lt;br /&gt;
+Vibe Kanban 是一个面向 AI 编码代理的编排平台 ，它可以帮助开发者规划、审查并安全地执行 AI 辅助的编码任务。每个任务都在一个独立的 Git 工作树中运行，让您在充分利用 AI 助手功能的同时，也能完全掌控代码库。它还可以配置GitHub 集成和MCP 集成。&lt;br /&gt;
+整体来说我觉得它的想法非常好，但是目前还是初期，希望后面可以发展的更加完善。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 skills&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：skills – Claude skill&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/anthropics/skills&lt;br /&gt;
+Claude skill可以说是最近非常火的一个概念，不得不说anthropic这一年确实提出了很多非常热门的标准。&lt;br /&gt;
+Claude skill 本质上不是一个“新模型”，而是一种「结构化能力模块」的抽象方式。它定义了一组可复用、可调用、可组合的能力单元。&lt;br /&gt;
+比较常见的一个对比就SKILL和MCP，MCP 连接使 Claude 能够访问各种工具，而技能则教会 Claude 如何有效地使用这些工具。他们不是重叠而是可以组合使用。&lt;br /&gt;
+本项目的仓库中有50多个可随时定制的Claude skill，涵盖：文档处理（Word、PDF、PowerPoint）、开发工具（Playwright、AWS、Git）、数据分析、商业与营销、沟通、创意媒体、生产力、项目管理和安全。每个类别都有自己的文件夹，其中包含清晰的SKILL.md文件，详细列出了提示词和逻辑。&lt;br /&gt;
+当然这里面也不能全部都非常实用，有一些也给人有点鸡肋的感觉。但是可以当成是一个sample，如果想实现自己定制的skill，用来作为基础还是很不错的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 A2UI&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：A2UI – agent生成UI&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/google/A2UI&lt;br /&gt;
+A2UI 是由 Google 及社区联合维护的开源协议 + 库集合，用来让 AI Agents（智能体）生成富交互的用户界面，并能在不同平台（Web、移动、桌面）上本地渲染这些界面，而不是只靠纯文本交互。&lt;br /&gt;
+传统的聊天式交互只靠自然语言往返，针对像“预订餐厅”“填写表格”这样的操作，会产生大量“来回问答 + 结果推理”。A2UI 的思路是让智能体输出一组可渲染的界面结构描述（JSON），而前端客户端按照自己的组件库把它渲染成真实的 UI 组件界面，让用户直接操作。 &lt;br /&gt;
+换句话说，智能体不再只回答“什么时候预订？”，它可以直接给你一套带日期选择器、时间选择器和确认按钮的完整界面，这样交互更直观、更自然。&lt;br /&gt;
+以前做一些简单智能体的时候，你可能选择streamlit，那现在可以直接让AI通过A2UI直接生成了。&lt;br /&gt;
+整体而言，A2UI 正在构建一个面向 AI-driven UI 交互的新标准 —— 让未来的 AI 交互更友好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4 Mole&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Mole – macOS 系统清理工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/tw93/Mole&lt;br /&gt;
+Mole 是一个用 Go + Shell 打造的开源 macOS 系统清理与优化工具，通过终端界面实现“深度清理、卸载应用、分析磁盘、系统优化”等功能，目标是把多个付费工具（CleanMyMac、AppCleaner、DaisyDisk、Sensei、iStat）集成到一个开源命令行体验里。&lt;br /&gt;
+可以使用brew来快速安装mole，然后执行命令mo就可以开始使用了。启动后显示交互式菜单界面，你可以用方向键选择不同操作。&lt;br /&gt;
+它的主要功能包括了清理掉占用空间的“隐形垃圾”、彻底删除应用程序、磁盘可视化分析、系统优化和显示实时系统状态。&lt;br /&gt;
+另外提示一点，如果担心不安全，可以先 --dry-run 看一遍清理计划，避免误删重要文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;5 fresh&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：fresh – 终端文本编辑器&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/sinelaw/fresh&lt;br /&gt;
+Fresh 是一个终端里的文本编辑器，主打“像 VS Code / Sublime 那样直觉、非模式（non-modal）”的交互：有完整菜单、命令面板、鼠标支持，尽量做到开箱即用，不要求你先背一套 Vim/Emacs 的快捷键。 &lt;br /&gt;
+它还很强调性能：设计目标是能高效处理多 GB 级大文件或慢速网络流，并保持很低的内存开销，避免传统编辑器在大文件上卡成 PPT。 &lt;br /&gt;
+它在功能上也不“寒酸”：文件管理、分屏、搜索替换、多光标、Markdown 预览、LSP（跳转定义/补全/诊断/重命名等）、git 相关能力都覆盖。 &lt;br /&gt;
+扩展方面，插件用 TypeScript 写，并在沙箱化的 Deno 环境里运行——既能用现代 JS 生态，又不至于把编辑器稳定性当盲盒抽奖。&lt;br /&gt;
+安装也很“照顾懒人”：提供一键安装脚本，另外也支持 brew、npm等多种方式。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 rendercv&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：rendercv – 简历生成器&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/rendercv/rendercv&lt;br /&gt;
+RenderCV 是一个面向学术与工程人群的 简历生成器：你用 YAML 写简历内容，然后一条命令 rendercv render xxx.yaml 就能生成排版稳定、间距一致、字体排印讲究的 PDF。&lt;br /&gt;
+你可以把简历当纯文本进 Git 版本管理；并提供多种主题示例与非常细的设计项（页面尺寸、边距、配色、字体、行距、对齐方式等）。  另外还有 JSON Schema，方便你在编辑 YAML 时获得自动补全和内联说明；同时做严格校验：填错字段会明确告诉你哪里错，避免“渲染出来才发现炸版”。&lt;br /&gt;
+可以通过&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;code-block&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;pip&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;install&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;rendercv[full]&amp;quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;如果你喜欢这种工程化的简历管理方式，那可以去尝试一下。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;One More Thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份是google cloud最新发的《AI agent trends 2026》，最近mate收购manus，让无数人都看到了AI agent市场巨大的潜力，所以这份资料绝对是要来看一看了。&lt;br /&gt;
+第二个是《全球通用agent趋势洞察》，这个报告中深度分析了8款代表性的通用agent产品，分别是ChatGPT、Claude、manus、Genspark、Lindy、Flowith、Gumloop、Relay，结合数据来去做了分析。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;
+&lt;p&gt;99期分享内容：&lt;br /&gt;
+我用夸克网盘给你分享了「一周热点99期」，链接：https://pan.quark.cn/s/d092e17f4058&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/99.md</guid>
     </item>
     <item>
       <title>97</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/97.md</link>
-      <description>## 视频
-[本期视频链接](https://www.bilibili.com/video/BV12jmeBxEw3/)
-
-GitHub 一周热点第97期(2025/12/7 - 12/13），本期内容包括自动操作手机的Agent、AI画架构图、AI编程的指导、看板工具、GO语言的游戏引擎和具身智能资料库。
-最后还有 2 份资料分享。
-如果觉得内容不错，别忘了点赞关注支持一下。
-
-## 1 Ope</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV12jmeBxEw3/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第97期(2025/12/7 - 12/13），本期内容包括自动操作手机的Agent、AI画架构图、AI编程的指导、看板工具、GO语言的游戏引擎和具身智能资料库。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;br /&gt;
+如果觉得内容不错，别忘了点赞关注支持一下。&lt;/p&gt;
+&lt;h2&gt;1 Open-AutoGLM&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Open-AutoGLM – 手机端智能助理&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/zai-org/Open-AutoGLM&lt;br /&gt;
+对于AI手机大家都会有自己的想象，上周豆包手机发布备受关注，让人们感到AI手机似乎有近了一步，那这周开源方面就跟上了，智谱推出了Open-AutoGLM。&lt;br /&gt;
+它是一个基于 AutoGLM 构建的手机端智能助理框架，它能够以多模态方式理解手机屏幕内容，并通过自动化操作帮助用户完成任务。&lt;br /&gt;
+目前可以看到很多操作的示例，比如在美团上点个外卖，也可以做一些购物时候的对比工作。&lt;br /&gt;
+它是通过 ADB(Android Debug Bridge)来控制设备，以视觉语言模型进行屏幕感知，再结合智能规划能力生成并执行操作流程。感兴趣的可以找个安卓手机来自己试试。&lt;br /&gt;
+Open-AutoGLM也是短短的一周就暴涨了超过1w star，但其实它背后的AutoGLM并不是一个新项目，2024年10月就第一次发布过自动操作手机的Agent，后来的25年3月，也出过一个AutoGLM沉思，加入到了智谱清言的电脑客户端里，当时我还做了第一时间的体验测评。这次开源手机的Agent，应该也是想蹭蹭热度，但是也是一直在这个方面上有所积累，希望可以把这个项目持续做好。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 next-ai-draw-io&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：next-ai-draw-io – AI画架构图&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/DayuanJiang/next-ai-draw-io&lt;br /&gt;
+Next AI Draw.io 是一个基于 Next.js 的开源 Web 应用，它把 AI 与 draw.io 图表编辑器 整合起来，让你可以用自然语言命令来 创建、修改、增强流程图/架构图/技术图 —— 基本上就是从“拖拖拽拽”升级到“有事你说话，AI来干活”。&lt;br /&gt;
+项目有一个在线的demo可以直接去试试，你可以直接把想设计的架构需求说出来，AI会自动生成，也可以要求做动态连线的版本，比如可以参考项目的例子，画一个带有动画连接器的Transformer架构图，现在这种动态连线架构图现在还挺火的。&lt;br /&gt;
+我也试了一下画一个HTTPS协议的握手流程图，生成也不错，还可以上传文档或图片来生成。&lt;br /&gt;
+如果你想在本地运行的话，可以用docker或者通过源码来手动启动，其实也不复杂。本地运行会更适合团队／隐私场景。&lt;br /&gt;
+说白了，Next AI Draw.io 就像给传统的流程图编辑器装了个 AI 伴侣，当然，它并不是完美的，复杂细节有时候还得自己动动手调整。但对于日常流程图、架构图、拓扑图，甚至一些带动态元素的专业图表，这绝对是个能显著提升效率的好帮手。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 agents.md&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：agents.md – AI编码的指导&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/agentsmd/agents.md&lt;br /&gt;
+AGENTS.md 不是一个传统意义上的库或框架，而是一种标准化的 Markdown 格式文件，专门用来为 “AI 编程代理（coding agents）” 提供明确、机器可读的项目上下文和工作指南。用一句你熟悉的话说，它就是 “写给 AI 的 README”，让 AI 工具知道如何构建、测试、编码风格和安全要求等。&lt;br /&gt;
+为什么需要这个东西呢？你把代码推上 GitHub，然后让 Copilot、Cursor、Google 的编码助手或其他智能体自动理解仓库。没有标准化文档，它们可能像刚上班的实习生一样乱撞；放了 AGENTS.md，它们就像拿到了一份详细的“工程说明书”。它会帮你统一规则，增强自动化，补充readme。&lt;br /&gt;
+相对来说它会比较适合Monorepo，使用 AI 自动执行构建／测试的工作流。&lt;br /&gt;
+看到这个你可能会一下子想到Claude.md，我的理解它相当于比Claude.md上一个层次，扩大了使用的覆盖面和包含的内容方向。最近对于如何优化AI编成也是有很多不同的尝试，agents.md也是其中一个值得关注的。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;4 fizzy&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：fizzy – 看板工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/basecamp/fizzy&lt;br /&gt;
+Fizzy 是 37signals出的看板追踪工具 fizzy.do 的开源源码，可以用来管理 issue 和想法，那它的竞品就是jira、trello了，都是大名鼎鼎的。&lt;br /&gt;
+这个项目的技术栈比较有意思，是Ruby / Rails + Hotwire，现在来说算比较小众了，这几年Ruby的东西我看到的确实不多。&lt;br /&gt;
+项目部署推荐的是它自己的一个工具，感觉比较麻烦，所以可以先到在线的fizzy.do里去看看功能，基础使用也是免费的。使用上它是一个可以满足需要的看板工具，它的欢迎教程，就是一个看板，也算是完全的吃自己狗粮了。总体来说呢，它就是那种“功能不花哨，但流程很讲究”的看板工具——你要的是把事情推进，而不是把看板当装修游戏玩。&lt;br /&gt;
+使用的时候需要注意一下协议，它不是场景的MIT之类的，而是 O’Saasy License。&lt;br /&gt;
+另外37signals网站上他们的一些企业介绍很有意思，就像这个Work isn’t war，我非常赞同。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;5 kaiju&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：kaiju – GO语言的游戏引擎&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/KaijuEngine/kaiju&lt;br /&gt;
+Kaiju 是一个使用 Go（Golang）开发的通用 3D/2D 游戏引擎，底层渲染基于 Vulkan API，并且自带可视化编辑器，目标是提供一个“更现代、更易上手”的游戏引擎体验。与很多游戏框架不同，它不是那种你写完逻辑靠另一个引擎跑，而是自己实现渲染/编辑/资源体系 —— 用 Go 这种现在流行的系统语言搞游戏，这本身就是个意思。 &lt;br /&gt;
+Kaiju 力图在场景、渲染、资源管理等方面弹性覆盖2D和3D两种模式，方便做从简单小游戏到复杂场景的原型。&lt;br /&gt;
+看起来比较有意思的是，它支持本地AI，可以看到直接输入内容，让AI来辅助创建对象。但是咱说，这输入框做的是不是太不有友好了，输入长了以后，前面都看不到啊。&lt;br /&gt;
+还有就是项目给的一些指标我看着比较懵，比如这个空物体的高帧率，后来我发现hackernews也同样被吐槽了。&lt;br /&gt;
+整体来说，它不是 Unity 那种一站式高级平台，但就 “自己动手 + 好玩 + 可控制” 这三条来说，它会有比脚本式引擎更原始、更透明的掌握感&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 Embodied-AI-Guide&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：Embodied-AI-Guide – 具身智能资料库&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/TianxingChen/Embodied-AI-Guide&lt;br /&gt;
+本项目是一个一份围绕具身智能（Embodied AI）的学习与研究指南，&lt;br /&gt;
+2025年机器人行业似乎嘭的一下就火起来了，就连马斯克都表示未来人形机器会超过特斯拉，创造超万亿的产值，今年全球机器人市场规模约为5000亿，到2030年就会突破万亿大关，是一个非常值得关注的赛道。&lt;br /&gt;
+我这周参与了一个机器人的活动，所以对这方面比较感兴趣，就分享一下这个项目。&lt;br /&gt;
+本项目核心目标很明确：帮你把“机器人 + 感知 + 决策 + 行动 + 学习”这条技术链路系统性地串起来。不是只讲模型，也不只讲硬件，而是从问题定义、算法范式到仿真平台、数据集与代表性工作，尽量给你一张“可导航的地图”。&lt;br /&gt;
+我相信很多人对具身智能的印象还停留在“机器人很火，但我不知道从哪下手”，这个时候你就需要一份可以帮你找到方向的资料指引了，所以这个时候你需要的就是，关注IT咖啡馆。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;one more thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份《从零开始构建智能体》，Hello-Agents 是 Datawhale 社区的系统性智能体学习教程，希望带你理解如何实现代码开发Agent的整个流程，构建起属于自己的多智能体应用。&lt;br /&gt;
+第二个是《中美机器人发展深度分析报告》，最近我正好在看一些关于具身智能机器人的内容，然后发现了这个报告，他是从投资的角度来解析机器人企业的商业逻辑，感兴趣的可以看一下。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/97.md</guid>
     </item>
     <item>
       <title>98</title>
       <link>https://github.com/qjm100/githubweekly/blob/main/./post/98.md</link>
-      <description>## 视频
-[本期视频链接](https://www.bilibili.com/video/BV1Rjq2BmEpc/)
-
-GitHub 一周热点第98期(2025/12/14 - 12/20），本期内容包括AI文档理解检索框架、微软最新的TTS框架、Claude Code 记忆插件、自动化备份工具、 jellyfin的桌面端和linux桌面环境。
-最后还有 2 份资料分享。
-
-## 1 WeKn</description>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 GMT</pubDate>
+      <description>&lt;div style='max-width: 800px; margin: 0 auto;'&gt;
+    &lt;style&gt;
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; }
+        p { line-height: 1.6; margin: 8px 0; }
+        ul, ol { margin: 8px 0 8px 20px; }
+    &lt;/style&gt;
+    &lt;h2&gt;视频&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Rjq2BmEpc/&quot;&gt;本期视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub 一周热点第98期(2025/12/14 - 12/20），本期内容包括AI文档理解检索框架、微软最新的TTS框架、Claude Code 记忆插件、自动化备份工具、 jellyfin的桌面端和linux桌面环境。&lt;br /&gt;
+最后还有 2 份资料分享。&lt;/p&gt;
+&lt;h2&gt;1 WeKnora&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：WeKnora – 文档理解检索框架&lt;/li&gt;
+&lt;li&gt;官网链接：https://github.com/Tencent/WeKnora&lt;br /&gt;
+WeKnora 是腾讯开源的一个 基于大语言模型（LLM）和 RAG（检索增强生成）架构的企业级文档理解与语义检索框架，目标是把复杂、异构格式的文档库变成可查询、可对话、可生成答案的智能知识库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;可以本地部署完全掌控数据，本地部署的话可以克隆项目，然后一条命令启动全部服务，也可以根据需要启动不同功能组合。&lt;/p&gt;
+&lt;div class=&quot;code-block&quot;&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;# 克隆项目&lt;/span&gt;
+git&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;clone&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;https://github.com/Tencent/WeKnora.git
+&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;WeKnora
+&lt;span class=&quot;c1&quot;&gt;# 配置环境变量&lt;/span&gt;
+cp&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;.env.example&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;.env
+&lt;span class=&quot;c1&quot;&gt;# 编辑.env文件设置必要的配置&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;# 启动所有服务(包含Ollama)&lt;/span&gt;
+./scripts/start_all.sh
+&lt;span class=&quot;c1&quot;&gt;# 或使用Make命令&lt;/span&gt;
+make&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;start-all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;同时WeKnora 作为微信对话开放平台的核心技术框架，能通过微信对话开放平台零代码接入微信生态。&lt;/p&gt;
+&lt;p&gt;可以把它用在很多常见的企业场景，比如内部知识库 / 文档问答：将产品手册、规范文档、培训资料等变成可查询的智能语义库。 科研资料分析：对学术论文、多格式报告库做语义抽取与智能问答。 客服与支持自动化：自动理解用户问题，结合文档数据生成专业回答。&lt;br /&gt;
+整个框架采用模块化架构，融合多模态预处理、语义向量索引、智能召回与大模型生成推理，构建起高效、可控的文档问答流程。&lt;br /&gt;
+&lt;a href=&quot;/asset/post98/architecture%20(1).png&quot;&gt;图片&lt;/a&gt;&lt;br /&gt;
+技术角度，主开发语言是Golang，前端采用Vue，支持Python扩展，开源协议 采用MIT协议，在商用方面也非常友好。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;2 VibeVoice&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：VibeVoice – 微软TTS框架&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/microsoft/VibeVoice&lt;br /&gt;
+VibeVoice 是微软开源的 下一代文本转语音（TTS）框架，核心目标不是把一句话念出来，而是把 完整对话、播客、长篇内容 变成听起来自然、角色有区别、节奏流畅的音频。相比传统那种“一个机器人呆板念稿”，VibeVoice 更像是用 AI 实现“真人播音员+编辑室”。&lt;br /&gt;
+VibeVoice的特色能力包括了超长音频合成、多角色支持、自然对话流、实时低延迟TTS。&lt;br /&gt;
+它支持多语言混合生成，而且项目的示例还结合wan2.2做了AI的播客。这也算是一个非常直观的使用示例了，如果想做视频播客，就可以参考这个例子。如果想实际试用一下效果，可以下载项目来安装一下，也可以到colab上去试一下。&lt;br /&gt;
+当然，别拿它直接跟商业级全语种智能播报系统比；目前核心还是科研 &amp;amp; 开发者工具，重点是自然长对话 + 多角色一致性这两个痛点上。  如果想深入使用建议是自己做一些深入的调优和开发。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;3 claude-mem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：claude-mem – Claude Code 记忆插件&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/thedotmack/claude-mem&lt;br /&gt;
+Claude-Mem 是一个 专门为 Claude Code 构建的插件 / 持久化记忆系统，解决了 Claude Code 在不同会话之间“记不住上下文”和“每次要重复讲项目背景”的痛点。它自动捕获 Claude 在编码过程中执行的操作（比如工具调用、代码变更、对话片段等），用 AI 生成语义摘要保存下来，并在后续会话中自动把相关上下文注入回去。&lt;br /&gt;
+可以通过Claude code的plugin直接安装或者可以下载项目手动安装。&lt;br /&gt;
+核心能力包括了持久化上下文存储、渐进式记忆检索、自然语言搜索历史、Web 查看器 &amp;amp; UI。&lt;br /&gt;
+当然也要提一下，这些能力的构建也需要一些额外的资源，额外的内存存储、检索层（向量数据库 + SQLite 索引）以及合理的上下文注入策略。&lt;br /&gt;
+它让 Claude 不再像“每次见面都要重新自我介绍”的开发实习生，而是变成了有经验、有记忆的开发老牛马。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4 zerobyte&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：zerobyte – 自动化备份工具&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/nicotsx/zerobyte&lt;br /&gt;
+Zerobyte 是一款备份自动化工具，可帮助您跨多个存储后端保存数据。它基于 Restic 构建，提供了一个现代化的 Web 界面，用于安排、管理和监控远程存储的加密备份。&lt;br /&gt;
+启动的话可以通过项目给出的docker compose，但是要注意下的是，是否需要远程挂载，差别是是否开启SYS_ADMIN和 FUSE 设备。&lt;br /&gt;
+Zerobyte 支持多种卷后端，包括 NFS、SMB、WebDAV 和本地目录。卷代表您要备份和监控的源数据。可以在web页面去操作添加的动作。如果您想跟踪 Zerobyte 运行所在服务器上的本地目录，首先需要将该目录挂载到 Zerobyte 容器中，也就是在docker compose文件里来添加映射点。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;还需要注意的是，Zerobyte 目前还在 0.x，版本间可能有大改动，适合特别愿意折腾的玩家来尝试。&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;5 jellyfin-desktop&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：jellyfin-desktop – jellyfin桌面端&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/jellyfin/jellyfin-desktop&lt;br /&gt;
+Jellyfin Desktop 是 Jellyfin 的桌面客户端，那Jellyfin可以说是大名鼎鼎。&lt;br /&gt;
+它是一款完全开源、免费的媒体服务器，用来管理和播放你的电影、电视剧、音乐等本地媒体。它支持多端访问（网页、手机、电视、桌面），不需要订阅费，也没有账号绑定，所有数据都掌握在你自己手里。非常多自建家庭NAS影音库的用户都在使用。&lt;br /&gt;
+Jellyfin Desktop 用服务器提供的 jellyfin-web 作为界面，同时在应用里嵌入 MPV 播放器，实现“网页UI + 原生播放器”同窗播放。支持 Windows / macOS / Linux，并且支持 音频直通。 &lt;br /&gt;
+Releases里提供多平台安装包的下载 ，开源的协议是 GPL-2.0，也比较友好，这个东西就比较直接了，nas玩家可以自己多去搞搞。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr /&gt;
+&lt;h2&gt;6 cosmic-epoch&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;项目名称：cosmic-epoch – linux桌面环境&lt;/li&gt;
+&lt;li&gt;GitHub 链接：https://github.com/pop-os/cosmic-epoch&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cosmic是一个下一代的linux桌面环境，可以在最新发布的Pop!_OS上体验到Cosmic， Pop!_OS是基于 Ubuntu 的 Linux 发行版，一开始其特色就是定制的 GNOME 桌面。&lt;br /&gt;
+你对linux的印象是不是还是黑屏的命令行操作，服务器端的linux为了性能大多不装GUI，但是桌面版的linux其实现在桌面都做得很漂亮的。&lt;br /&gt;
+Cosmic提供高性能、高效率和个性化功能，可满足各种使用场景的需求。这个项目不是一个完整桌面环境，而是 Cosmic Shell UI 的一些关键模块。项目中列出了COSMIC 桌面系统的组成部分。&lt;br /&gt;
+如果你对于Linux桌面组件感兴趣或者想学习UI 系统工程化，都值得一逛&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h2&gt;One More Thing&lt;/h2&gt;
+&lt;p&gt;最后还是分享2个资料，第一份《生成式人工智能零售业全景观察白皮书》，是德勤出的一个报告，也是调研了很多连锁零售企业，报告里也有一些企业在人工智能方面的实践分析。&lt;br /&gt;
+第二个是《人形机器人生态报告》，这个是上海财经大学数字经济研究院的一个报告，以具⾝智能在技术-产业-市场-应⽤等⻆度的⽣态化进展为基础，针对人形机器人方向的一个观察和研究。&lt;br /&gt;
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。&lt;/p&gt;
+&lt;p&gt;98期分享内容：&lt;br /&gt;
+我用夸克网盘给你分享了「一周热点98期」，链接：https://pan.quark.cn/s/d2108283bc40&lt;/p&gt;&lt;/div&gt;</description>
+      <pubDate>Sun, 25 Jan 2026 00:00:00 GMT</pubDate>
       <guid>https://github.com/qjm100/githubweekly/blob/main/./post/98.md</guid>
     </item>
   </channel>
