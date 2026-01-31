@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub一周热点第102期</title>
+    <meta name="description" content="个人AI助理OpenClaw、React生成视频Remotion、Kimi K2.5开源模型等">
+    
+    <style>
+        body { max-width: 800px; margin: 20px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; overflow-x: auto; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; color: #2c3e50; }
+        p { line-height: 1.6; margin: 8px 0; color: #34495e; }
+        ul, ol { margin: 8px 0 8px 20px; color: #34495e; }
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
+        .post-meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+    </style>
+
+</head>
+<body>
+    <h1>GitHub一周热点第102期</h1>
+    <div class="post-meta">发布时间：2025-01-31</div>
+    <h2>视频</h2>
+<p><a href="https://www.bilibili.com/video/BV1fqzrB1Enm/">本期视频链接</a></p>
+<p>GitHub 一周热点第102期(2025/1/25 - 2025/1/31），本期内容包括爆火的个人AI助理，React 生成视频，kimi最新开源模型，新型 RAG和提取非结构化文本的库。<br />
+最后还有 2 份资料分享。<br />
+这期稍微做一个调整，把项目数量从6个改回5个，因为有时候AI的热点太多，强行区分工具和AI我觉得也不是特别好。<br />
+如果觉得内容不错，别忘了点赞关注支持一下。</p>
+<h2>1. OpenClaw</h2>
+<ul>
+<li>项目名称：OpenClaw – 个人AI助理</li>
+<li>官网链接：https://github.com/openclaw/openclaw<br />
+这周的最大的热点无疑就是openclaw，你是不是觉得这个名字有点陌生，没错他就在2天前叫moltbot，而4天前他叫clawdbot，名字改的太快了。OpenClaw 是一款运行在您自己的设备上的个人 AI 助手 。可以7X24小时待命，并且可以使用你熟悉的聊天工具去操控，比如像WhatsApp、telegram或者Imessage。<br />
+<img alt="openclawd" src="https://github.com/qjm100/githubweekly/raw/main/../../../asset/post102/1-1.webp" /><br />
+那它有多热呢？整个硅谷都为之疯狂，有人说cowork和它比就是个弟弟，也有人说靠它拉高了1季度Mac mini 的销量，我写稿的速度都跟不上它star增长的速度。周初还是20K star，而到了周末就已经超过了100K。<br />
+使用上它支持 macOS/iOS/Android 系统，并且现在各大云服务商也都第一时间提供了支持，所以上手部署的选择非常多。如果你想在本地部署的话，可以参考我的这个视频，如果想云上部署，我也出了基于阿里云的实操教程，根据你的需要去参考，这里就不再赘述。<br />
+还有就是它的作者，明明是一个已经创业有成的亿万富翁，已经实现财富自由了，还能放下豪宅跑车泳池嫩模，跑回来写代码，真的是让人意想不到。要是国内，别说财富自由，当2年领导都写不了代码了。<br />
+当然目前对于openclaw也有很多负面的声音，我绝对主要是针对两点，第一是安全，这个目前是比较共识的，确实安全问题很多，继续提升。第二点就是实用性，很多人也在质疑它是否真的有提升效果。<br />
+总之如果你感兴趣想玩玩，可以去参考我的视频上手试试。</li>
+</ul>
+<h2>2. Remotion</h2>
+<ul>
+<li>项目名称：Remotion – React 生成视频</li>
+<li>官网链接：https://github.com/remotion-dev/remotion<br />
+Remotion 的本质一句话：用 React 编程生成视频。你可以把视频当成一个 React 组件来写，CSS / Canvas / SVG / WebGL 这些 Web 技术都能直接上；同时也能用变量、函数、API、数学和算法去做动画效果——本质上是“把剪辑时间线变成代码”。<br />
+<img alt="remotion" src="https://github.com/qjm100/githubweekly/raw/main/../../../asset/post102/2-1.gif" /><br />
+当然其实这个项目有一段时间了，最近突然爆火是因为remotion支持了agent skill，网上很多人试了之后都说效果非常不错，所以也是越传越火。<br />
+使用的话，你可以找一个支持agent skill的工具，然后直接告诉他帮我安装这个skill，然后给它链接，过一会就装好了。然后再描述你的视频内容就可以了，这是我试用的例子。过程大致就是创建 Remotion 项目、设计视频分镜、编写 React 组件、实现动画逻辑。<br />
+都开发完成后启动服务，可以打开一个remotion studio，可以查看生成的内容，也可以导出视频。<br />
+<img alt="remotionstudio" src="https://github.com/qjm100/githubweekly/raw/main/../../../asset/post102/2-2.png" /><br />
+我这里用了两个模型各试了一次，GLM4.7和Kimi K2.5，你觉得哪个好一些。<br />
+总体感觉我觉得适合做一些简单的内容，未来可期，但是也没那么神吧。</li>
+</ul>
+<h2>3. Kimi K2.5</h2>
+<ul>
+<li>项目名称：Kimi K2.5 – Kimi最新开源模型</li>
+<li>GitHub 链接：https://huggingface.co/moonshotai/Kimi-K2.5<br />
+Kimi发布了新一代开源模型 Kimi K2.5，在agent、编程和视觉上都表现出色，上线不到24小时，已登在全球多个权威榜单取得亮眼成绩。<br />
+Kimi K2.5的发布内容里提到了代码能力跨越式提升，可见它这次也是非常针对性在代码场景中做了优化，而且在杨植麟的介绍视频里也能看到，K2.5的开发效果非常不错，网上很多人也说K2.5的前端审美非常突出，做出设计师水准的高级审美和动效的前端页面。另外就是K2.5的视觉能力，可以传视频demo，然后去进行开发，还是比较吸引人。</li>
+</ul>
+<p>另外它还发布了kimi code，现在真是每家都要出一个自己的Claude code，我也特意开了一个中档的订阅，准备去好好试用一下效果，要是不错再来和大家分享。<br />
+<img alt="agent" src="https://github.com/qjm100/githubweekly/raw/main/../../../asset/post102/3-1.png" /><br />
+还有就是这次kimi出了一个agent集群能力，我还没具体使用，看起挺有意思。<br />
+目前网上的测试来看K2.5的成本大概在gpt的1/5，所以成本这一块还是非常有吸引力的，毕竟现在各种工具那真是一个费token。</p>
+<hr />
+<h2>4. PageIndex</h2>
+<ul>
+<li>项目名称：PageIndex – 新型 RAG</li>
+<li>GitHub 链接：https://github.com/VectifyAI/PageIndex<br />
+PageIndex 是由 VectifyAI 开源的一个 新型 RAG ，它提出了不依赖向量数据库、不进行文档切块的文档检索方法，而是通过 结构化推理与树状索引 实现 AI 对复杂、长文本的高准确度检索。<br />
+在 AI 应用中，RAG已成为处理长文档的标配，但传统的向量- based RAG 始终面临一个核心痛点：相似性和相关性的矛盾。当面对金融、法律同、学术等需要专业推理的长文档时，问题尤为凸显。<br />
+PageIndex 的思路是：<br />
+1. 先从文档中自动构建树状索引<br />
+2. 再通过推理 + 树搜索模拟人类专家查阅方式来检索答案，不再依赖向量匹配。<br />
+<img alt="pageindex" src="https://github.com/qjm100/githubweekly/raw/main/../../../asset/post102/4-1.webp" /><br />
+目前使用方式方面，有Python SDK，在线的API和MCP，我估计后续可能也会在推出配合的skill。<br />
+项目自己给出了一个例子说达到最先进的benchmark，但是这类新技术探索型的项目，还是需要多做观察，暂时不好说是好是坏。</li>
+</ul>
+<hr />
+<h2>5. LangExtract</h2>
+<ul>
+<li>项目名称：LangExtract – 提取非结构化文本的库</li>
+<li>GitHub 链接：https://github.com/google/langextract<br />
+LangExtract 是 Google 开源的一个 Python 库，用于从非结构化文本（如报告、合同、邮件、临床记录等）中提取结构化信息，输出可验证、可追踪、符合用户定义 schema 的数据。它用大型语言模型（LLM）作为底层引擎，通过配置 prompt 和少量示例，自动识别关键信息并把它组织成严格定义的结构化形式。也经常被用作和RAG、agent配合使用。<br />
+使用的话只需要pip install langextract，然后在python中使用。你需要定义一下模型的提示词，然后再给出一个高质量的示例来知道模型。<br />
+库支持生成交互式 HTML 报告，以高亮方式展示提取结果和原始文本，便于人工核对与审计。<br />
+比如可以看下项目给出的这个解析罗密欧与朱丽叶的例子，这里会提取出角色，情感还有关系，可视化的效果就是类似这样的。<br />
+langextract 属于是把大模型的提取能力更好的工程化了。</li>
+</ul>
+<hr />
+<h2>One More Thing</h2>
+<p>最后还是分享2个资料，第一份是《爆款AI漫剧教学手册》，看着可能是北航的教授弄的，内容还行属于是新手科普向的，不算太有深度，但是理解也不会太难，对AIGC不太了解的可以当科普去了解一下相关内容。<br />
+第二个是《2025年上海市“AI+制造”发展白皮书》，我也忘了从哪看到这个报告，北上广深4个一线城市，上海一直是中国的第一都市，在AI浪潮中会有什么样发展，其实我很好奇，后面这个顺序会不会再有变化。<br />
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。</p>
+</body>
+</html>
