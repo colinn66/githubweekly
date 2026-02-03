@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub一周热点第98期</title>
+    <meta name="description" content="腾讯文档理解框架WeKnora、微软TTS框架VibeVoice、Claude记忆插件等">
+    
+    <style>
+        body { max-width: 800px; margin: 20px auto; padding: 0 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+        .code-block { background: #f5f5f5; padding: 10px; border-radius: 4px; font-family: monospace; overflow-x: auto; }
+        table { border-collapse: collapse; margin: 10px 0; }
+        th, td { border: 1px solid #ddd; padding: 6px 12px; }
+        th { background: #f0f0f0; }
+        h1, h2, h3 { margin: 15px 0 5px; color: #2c3e50; }
+        p { line-height: 1.6; margin: 8px 0; color: #34495e; }
+        ul, ol { margin: 8px 0 8px 20px; color: #34495e; }
+        img { max-width: 100%; height: auto; border-radius: 4px; margin: 10px 0; }
+        .post-meta { color: #7f8c8d; font-size: 0.9em; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #eee; }
+    </style>
+
+</head>
+<body>
+    <h1>GitHub一周热点第98期</h1>
+    <div class="post-meta">发布时间：2025-12-20</div>
+    <h2>视频</h2>
+<p><a href="https://www.bilibili.com/video/BV1Rjq2BmEpc/">本期视频链接</a></p>
+<p>GitHub 一周热点第98期(2025/12/14 - 12/20），本期内容包括AI文档理解检索框架、微软最新的TTS框架、Claude Code 记忆插件、自动化备份工具、 jellyfin的桌面端和linux桌面环境。<br />
+最后还有 2 份资料分享。</p>
+<h2>1 WeKnora</h2>
+<ul>
+<li>项目名称：WeKnora – 文档理解检索框架</li>
+<li>官网链接：https://github.com/Tencent/WeKnora<br />
+WeKnora 是腾讯开源的一个 基于大语言模型（LLM）和 RAG（检索增强生成）架构的企业级文档理解与语义检索框架，目标是把复杂、异构格式的文档库变成可查询、可对话、可生成答案的智能知识库。</li>
+</ul>
+<p>可以本地部署完全掌控数据，本地部署的话可以克隆项目，然后一条命令启动全部服务，也可以根据需要启动不同功能组合。</p>
+<div class="code-block"><pre><span></span><code><span class="c1"># 克隆项目</span>
+git<span class="w"> </span>clone<span class="w"> </span>https://github.com/Tencent/WeKnora.git
+<span class="nb">cd</span><span class="w"> </span>WeKnora
+
+<span class="c1"># 配置环境变量</span>
+cp<span class="w"> </span>.env.example<span class="w"> </span>.env
+<span class="c1"># 编辑.env文件设置必要的配置</span>
+
+<span class="c1"># 启动所有服务(包含Ollama)</span>
+./scripts/start_all.sh
+<span class="c1"># 或使用Make命令</span>
+make<span class="w"> </span>start-all
+</code></pre></div>
+
+<p>同时WeKnora 作为微信对话开放平台的核心技术框架，能通过微信对话开放平台零代码接入微信生态。</p>
+<p>可以把它用在很多常见的企业场景，比如内部知识库 / 文档问答：将产品手册、规范文档、培训资料等变成可查询的智能语义库。 科研资料分析：对学术论文、多格式报告库做语义抽取与智能问答。 客服与支持自动化：自动理解用户问题，结合文档数据生成专业回答。<br />
+整个框架采用模块化架构，融合多模态预处理、语义向量索引、智能召回与大模型生成推理，构建起高效、可控的文档问答流程。<br />
+<img alt="图片" src="https://qjm100.github.io/githubweekly/asset/post98/architecture%20(1).png" /><br />
+技术角度，主开发语言是Golang，前端采用Vue，支持Python扩展，开源协议 采用MIT协议，在商用方面也非常友好。</p>
+<hr />
+<h2>2 VibeVoice</h2>
+<ul>
+<li>项目名称：VibeVoice – 微软TTS框架</li>
+<li>GitHub 链接：https://github.com/microsoft/VibeVoice<br />
+VibeVoice 是微软开源的 下一代文本转语音（TTS）框架，核心目标不是把一句话念出来，而是把 完整对话、播客、长篇内容 变成听起来自然、角色有区别、节奏流畅的音频。相比传统那种“一个机器人呆板念稿”，VibeVoice 更像是用 AI 实现“真人播音员+编辑室”。<br />
+VibeVoice的特色能力包括了超长音频合成、多角色支持、自然对话流、实时低延迟TTS。<br />
+它支持多语言混合生成，而且项目的示例还结合wan2.2做了AI的播客。这也算是一个非常直观的使用示例了，如果想做视频播客，就可以参考这个例子。如果想实际试用一下效果，可以下载项目来安装一下，也可以到colab上去试一下。<br />
+当然，别拿它直接跟商业级全语种智能播报系统比；目前核心还是科研 &amp; 开发者工具，重点是自然长对话 + 多角色一致性这两个痛点上。  如果想深入使用建议是自己做一些深入的调优和开发。</li>
+</ul>
+<hr />
+<h2>3 claude-mem</h2>
+<ul>
+<li>项目名称：claude-mem – Claude Code 记忆插件</li>
+<li>GitHub 链接：https://github.com/thedotmack/claude-mem<br />
+Claude-Mem 是一个 专门为 Claude Code 构建的插件 / 持久化记忆系统，解决了 Claude Code 在不同会话之间“记不住上下文”和“每次要重复讲项目背景”的痛点。它自动捕获 Claude 在编码过程中执行的操作（比如工具调用、代码变更、对话片段等），用 AI 生成语义摘要保存下来，并在后续会话中自动把相关上下文注入回去。<br />
+可以通过Claude code的plugin直接安装或者可以下载项目手动安装。<br />
+核心能力包括了持久化上下文存储、渐进式记忆检索、自然语言搜索历史、Web 查看器 &amp; UI。<br />
+当然也要提一下，这些能力的构建也需要一些额外的资源，额外的内存存储、检索层（向量数据库 + SQLite 索引）以及合理的上下文注入策略。<br />
+它让 Claude 不再像“每次见面都要重新自我介绍”的开发实习生，而是变成了有经验、有记忆的开发老牛马。</li>
+</ul>
+<h2>4 zerobyte</h2>
+<ul>
+<li>项目名称：zerobyte – 自动化备份工具</li>
+<li>GitHub 链接：https://github.com/nicotsx/zerobyte<br />
+Zerobyte 是一款备份自动化工具，可帮助您跨多个存储后端保存数据。它基于 Restic 构建，提供了一个现代化的 Web 界面，用于安排、管理和监控远程存储的加密备份。<br />
+启动的话可以通过项目给出的docker compose，但是要注意下的是，是否需要远程挂载，差别是是否开启SYS_ADMIN和 FUSE 设备。<br />
+Zerobyte 支持多种卷后端，包括 NFS、SMB、WebDAV 和本地目录。卷代表您要备份和监控的源数据。可以在web页面去操作添加的动作。如果您想跟踪 Zerobyte 运行所在服务器上的本地目录，首先需要将该目录挂载到 Zerobyte 容器中，也就是在docker compose文件里来添加映射点。</li>
+</ul>
+<p>还需要注意的是，Zerobyte 目前还在 0.x，版本间可能有大改动，适合特别愿意折腾的玩家来尝试。</p>
+<hr />
+<h2>5 jellyfin-desktop</h2>
+<ul>
+<li>项目名称：jellyfin-desktop – jellyfin桌面端</li>
+<li>GitHub 链接：https://github.com/jellyfin/jellyfin-desktop<br />
+Jellyfin Desktop 是 Jellyfin 的桌面客户端，那Jellyfin可以说是大名鼎鼎。<br />
+它是一款完全开源、免费的媒体服务器，用来管理和播放你的电影、电视剧、音乐等本地媒体。它支持多端访问（网页、手机、电视、桌面），不需要订阅费，也没有账号绑定，所有数据都掌握在你自己手里。非常多自建家庭NAS影音库的用户都在使用。<br />
+Jellyfin Desktop 用服务器提供的 jellyfin-web 作为界面，同时在应用里嵌入 MPV 播放器，实现“网页UI + 原生播放器”同窗播放。支持 Windows / macOS / Linux，并且支持 音频直通。 <br />
+Releases里提供多平台安装包的下载 ，开源的协议是 GPL-2.0，也比较友好，这个东西就比较直接了，nas玩家可以自己多去搞搞。</li>
+</ul>
+<hr />
+<h2>6 cosmic-epoch</h2>
+<ul>
+<li>项目名称：cosmic-epoch – linux桌面环境</li>
+<li>GitHub 链接：https://github.com/pop-os/cosmic-epoch</li>
+</ul>
+<p>Cosmic是一个下一代的linux桌面环境，可以在最新发布的Pop!_OS上体验到Cosmic， Pop!_OS是基于 Ubuntu 的 Linux 发行版，一开始其特色就是定制的 GNOME 桌面。<br />
+你对linux的印象是不是还是黑屏的命令行操作，服务器端的linux为了性能大多不装GUI，但是桌面版的linux其实现在桌面都做得很漂亮的。<br />
+Cosmic提供高性能、高效率和个性化功能，可满足各种使用场景的需求。这个项目不是一个完整桌面环境，而是 Cosmic Shell UI 的一些关键模块。项目中列出了COSMIC 桌面系统的组成部分。<br />
+如果你对于Linux桌面组件感兴趣或者想学习UI 系统工程化，都值得一逛</p>
+<hr />
+<h2>One More Thing</h2>
+<p>最后还是分享2个资料，第一份《生成式人工智能零售业全景观察白皮书》，是德勤出的一个报告，也是调研了很多连锁零售企业，报告里也有一些企业在人工智能方面的实践分析。<br />
+第二个是《人形机器人生态报告》，这个是上海财经大学数字经济研究院的一个报告，以具⾝智能在技术-产业-市场-应⽤等⻆度的⽣态化进展为基础，针对人形机器人方向的一个观察和研究。<br />
+有需要的可以告诉我，以上就是本周的全部内容，那我们下次再见。</p>
+<p>98期分享内容：<br />
+我用夸克网盘给你分享了「一周热点98期」，链接：https://pan.quark.cn/s/d2108283bc40</p>
+</body>
+</html>
