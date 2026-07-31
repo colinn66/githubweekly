@@ -26,3 +26,6 @@ Thumbs.db
 
 # 环境文件
 .env
+
+# 本地同步脚本
+scripts/sync-weekly-to-feishu.sh
