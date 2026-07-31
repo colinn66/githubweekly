@@ -10,6 +10,8 @@ GitHub一周热点汇总，每周分享热门项目，B站、YouTube发布视频
 
 
 ### 往期内容
+- 第124期：[Kimi K3](_weekly/124.md)  | [在线阅读](https://itcoffee66.github.io/githubweekly/124.html)
+- 第123期：[长音频转写分离](_weekly/123.md)  | [在线阅读](https://itcoffee66.github.io/githubweekly/123.html)
 - 第122期：[AI求职助手](_weekly/122.md)  | [在线阅读](https://itcoffee66.github.io/githubweekly/122.html)
 - 第121期：[DeepSeek推理加速](_weekly/121.md)  | [在线阅读](https://itcoffee66.github.io/githubweekly/121.html)
 - 第120期：[Agent视频生产系统](_weekly/120.md)  | [在线阅读](https://itcoffee66.github.io/githubweekly/120.html)
@@ -43,4 +45,3 @@ GitHub一周热点汇总，每周分享热门项目，B站、YouTube发布视频
 使用 RSS 订阅软件可以快速知道本周 GitHub 热点项目
 
 订阅地址：[https://itcoffee66.github.io/githubweekly/feed.xml](https://itcoffee66.github.io/githubweekly/feed.xml)
-

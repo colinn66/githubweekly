@@ -37,3 +37,25 @@ description: "本期摘要"
 
 正文内容...
 ```
+
+## 同步到飞书
+
+本项目把周刊 Markdown 同步到飞书云空间的动作固化在脚本里：
+
+```bash
+# 同步最新一期
+scripts/sync-weekly-to-feishu.sh
+
+# 同步指定期数
+scripts/sync-weekly-to-feishu.sh 121
+```
+
+默认目标目录是飞书文件夹 token：`GHUCfebcXlIgTgdSnRDcEdeunCe`。
+
+脚本会把 `_weekly/<期数>.md` 导入为飞书在线文档（docx），文档名为 `GitHub一周热点第<期数>期`。每次执行都会创建一个新的飞书文档，不会覆盖或删除远端已有文件。
+
+如需临时同步到其他目录，可使用环境变量覆盖：
+
+```bash
+FEISHU_WEEKLY_FOLDER_TOKEN=<folder_token> scripts/sync-weekly-to-feishu.sh 121
+```
